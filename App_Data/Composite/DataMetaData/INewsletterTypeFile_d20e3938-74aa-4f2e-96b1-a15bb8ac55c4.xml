@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataTypeDescriptor dataTypeId="d20e3938-74aa-4f2e-96b1-a15bb8ac55c4" name="INewsletterTypeFile" namespace="Composite.Community.Newsletter.Data.Types" hasCustomPhysicalSortOrder="false" isCodeGenerated="false" cachable="false" typeManagerTypeName="Composite.Community.Newsletter.Data.Types.INewsletterTypeFile,Composite.Community.Newsletter" buildNewHandlerTypeName="Composite.Data.Types.IFileBuildNewHandler,Composite">
+  <DataAssociations />
+  <DataScopes>
+    <DataScopeIdentifier name="public" />
+  </DataScopes>
+  <KeyPropertyNames />
+  <SuperInterfaces>
+    <SuperInterface type="Composite.Data.Types.IFile,Composite" />
+  </SuperInterfaces>
+  <Fields />
+</DataTypeDescriptor>

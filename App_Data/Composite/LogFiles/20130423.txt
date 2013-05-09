@@ -1,0 +1,9 @@
+﻿20130423 14:39:51.4473 2  7 Information Composite.Core.WebClient.Setup.SetupService  Setup complete. Enjoy!
+20130423 14:39:51.5463 2  8 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 14:39:51:54 in process 3772
+20130423 17:03:32.5344 3 35 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 17:03:32:53 in process 3772
+20130423 21:41:59.5146 2 15 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 21:41:59:50 in process 172
+20130423 21:47:47.6221 3 54 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 21:47:47:62 in process 172
+20130423 22:38:27.9633 4 54 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 22:38:27:96 in process 172
+20130423 22:38:33.2412 5 32 Warning ConsoleMessageServiceFacade  Console 'key09379382823954574' has a last known change numer of 4, but server current number is 1.
+20130423 22:38:34.3036 5 64 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 22:38:34:30 in process 172
+20130423 22:46:16.5846 6  5 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 6 ended at 22:46:16:58 in process 172

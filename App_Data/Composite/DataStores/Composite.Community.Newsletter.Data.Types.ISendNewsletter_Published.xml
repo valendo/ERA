@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SendNewsletterElementsElements>
+  <SendNewsletterElements Id="8a8ccc8a-0541-4a84-94b8-0046bb2a72cd" NewsletterId="acc9a789-a6eb-4ba1-90fb-659801baa79f" WorkflowInstanceId="3bb9852e-1eb8-46e2-b95f-7c6eabc035e6" LastEmail="thanhtai_info@yahoo.com" />
+  <SendNewsletterElements Id="e9851e09-a69b-4897-9906-8033c6f0acb2" NewsletterId="4841bfe2-9209-4b34-a078-214efec1c6f5" WorkflowInstanceId="e39c72fb-258d-4ff7-b71f-f4126d8a0353" LastEmail="buzz3k@gmail.com" />
+</SendNewsletterElementsElements>

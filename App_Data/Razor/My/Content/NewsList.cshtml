@@ -1,0 +1,78 @@
+﻿@inherits RazorFunction
+
+@functions {
+    public override string FunctionDescription
+    {
+        get { return "Show news list"; }
+    }
+
+    [FunctionParameter(Label = "News Detail Page")]
+    public DataReference<IPage> NewsDetailPage { get; set; }
+
+    public static string GetUrlFromTitle(string title)
+    {
+        const string autoRemoveChars = @",./\?#!""@+'`�*():;$%&=��";
+        var generated = new System.Text.StringBuilder();
+
+        foreach (var c in title.Where(c => autoRemoveChars.IndexOf(c) == -1))
+        {
+            generated.Append(c);
+        }
+
+        var url = generated.ToString().Replace(" ", "-");
+
+        return url.ToLower();
+    }
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="~/Frontend/Styles/pajinate.css" rel="stylesheet" />
+    <script src="~/Frontend/Scripts/jquery.pajinate.js"></script>
+    
+</head>
+<body>
+    @{
+        var news = Data.Get<My.Content.News>().OrderByDescending(t => t.PublishDate).ToList();
+		if (news.Count > 0)
+        {
+        <div id="paging_container">
+				<ul class="content">
+                    @foreach (var item in news)
+                    {
+                        int i = news.IndexOf(item) + 1;
+                        <li>
+                            <h5><span class="dropcap"><strong class="usefont">@item.PublishDate.ToString("dd")</strong> <span class="usefont">
+                                @item.PublishDate.ToString("MM")</span></span> <span class="usefont">@item.Title</span></h5>
+                            <div class="wrapper pad_bot2">
+                                <figure class="left marg_right1">
+                                    <a href="@Html.C1().PageUrl(@NewsDetailPage.Data)/@item.PublishDate.ToString("yyyy")-@item.PublishDate.ToString("MM")-@item.PublishDate.ToString("dd")/@GetUrlFromTitle(item.Title)" class="link1">
+                                        <img src="@Html.C1().MediaUrl(item.Image)" />
+                                    </a>
+                                </figure>
+                                <p class="pad_bot1">
+                                    @item.Summary
+                                </p>
+                                <a href="@Html.C1().PageUrl(@NewsDetailPage.Data)/@item.PublishDate.ToString("yyyy")-@item.PublishDate.ToString("MM")-@item.PublishDate.ToString("dd")/@GetUrlFromTitle(item.Title)" class="link1">Read More</a>
+                            </div>
+                        </li>
+                    }
+				</ul>	
+                    <div class="page_navigation"></div>
+			</div>
+	}
+    }
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#paging_container').pajinate({
+                items_per_page: 3,
+                num_page_links_to_display: 5,
+                nav_label_first: '&lt;&lt;',
+                nav_label_last: '&gt;&gt;',
+                nav_label_prev: '&lt;',
+                nav_label_next: '&gt;'
+            });
+        });
+		</script>
+</body>
+</html>

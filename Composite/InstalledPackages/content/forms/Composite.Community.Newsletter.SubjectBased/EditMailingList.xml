@@ -1,0 +1,18 @@
+<cms:formdefinition xmlns="http://www.composite.net/ns/management/bindingforms/std.ui.controls.lib/1.0" xmlns:f="http://www.composite.net/ns/management/bindingforms/std.function.lib/1.0" xmlns:cms="http://www.composite.net/ns/management/bindingforms/1.0">
+	<cms:bindings>
+		<cms:binding name="MailingList" type="Composite.Community.Newsletter.SubjectBased.ISubject, Composite.Community.Newsletter.SubjectBased"/>
+	</cms:bindings>
+	<cms:layout iconhandle="usergroups-editusergroup">
+		<cms:layout.label>
+			<cms:read source="MailingList.Title"/>
+		</cms:layout.label>
+		<FieldGroup Label="${Composite.Community.Newsletter.SubjectBased, MailingList.FieldGroup}">
+			<TextBox Label="${Composite.Community.Newsletter.SubjectBased, MailingList.Title.Label}" Help="${Composite.Community.Newsletter.SubjectBased, MailingList.Title.Help}">
+				<cms:bind source="MailingList.Title" />
+			</TextBox>
+			<TextArea Label="${Composite.Community.Newsletter.SubjectBased, MailingList.Description.Label}" Help="${Composite.Community.Newsletter.SubjectBased, MailingList.Description.Help}">
+				<cms:bind source="MailingList.Description" />
+			</TextArea>
+		</FieldGroup>
+	</cms:layout>
+</cms:formdefinition>

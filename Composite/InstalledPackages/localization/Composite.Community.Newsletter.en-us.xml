@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string key="NewsletterElementProvider.ExportMembersXmlLabel" value="Export members to Xml" />
+	<string key="NewsletterElementProvider.ExportMembersXmlToolTip" value="Export members to Xml" />
+	<string key="NewsletterElementProvider.ExportMembersExcelLabel" value="Export members to Excel" />
+	<string key="NewsletterElementProvider.ExportMembersExcelToolTip" value="Export members to Excel" />
+
+	<string key="NewsletterElementProvider.EditNeverMailMeListLabel" value="Edit 'Never mail me' list" />
+	<string key="NewsletterElementProvider.EditNeverMailMeListToolTip" value="Edit 'Never mail me' list" />
+
+	<string key="Newsletters" value="Newsletters" />
+	<string key="NewsletterElementProvider.AddNewNewsletterTypeLabel" value="Add newsletter template" />
+	<string key="NewsletterElementProvider.AddNewNewsletterTypeToolTip" value="Add newsletter template" />
+	<string key="NewsletterElementProvider.EditNewsletterTypeLabel" value="Edit newsletter template" />
+	<string key="NewsletterElementProvider.EditNewsletterTypeToolTip" value="Edit newsletter template" />
+	<string key="NewsletterType.AddNewDialog" value="Add new newsletter template" />
+	<string key="NewsletterType.FieldGroup" value="Settings" />
+	<string key="NewsletterType.Layout" value="Layout" />
+	<string key="NewsletterType.Title" value="Title" />
+	<string key="NewsletterType.TitleHelp" value="The title identifies the newsletter template in lists. Consider using a short meaningful name." />
+	<string key="NewsletterType.LabelDialog" value="Newsletter template" />
+	<string key="NewsletterType.LabelFieldGroup" value="Settings" />
+	<string key="NewsletterType.Description" value="Description" />
+	<string key="NewsletterType.DescriptionHelp" value="Write a short description about this newsletter template." />
+	<string key="NewsletterType.DefaultFromName" value="Default 'From' name" />
+	<string key="NewsletterType.DefaultFromNameHelp" value="This name will be used by default in the From field of newsletter based on this template." />
+	<string key="NewsletterType.DefaultFromEmail" value="Default 'From' email" />
+	<string key="NewsletterType.DefaultFromEmailHelp" value="This email address will be used by default in the From field of a newsletter based on this template." />
+	<string key="NewsletterType.DefaultReplyToEmail" value="Default 'Reply to' email" />
+	<string key="NewsletterType.DefaultReplyToEmailHelp" value="This email address will be used by default in the Reply-To field of a newsletter based on this template." />
+	<string key="NewsletterType.DefaultSubject" value="Default subject" />
+	<string key="NewsletterType.DefaultSubjectHelp" value="This text will be used by default as the subject of a newsletter based on this template." />
+	<string key="NewsletterType.UnsubscribePage" value="Unsubscribe page" />
+
+	<string key="DeleteNewsletterType.LabelFieldGroup" value="Newsletter template" />
+	<string key="DeleteNewsletterType.Text" value="Do you want to delete the newsletter template?" />
+	<string key="DeleteNewsletter.LabelFieldGroup" value="Newsletter" />
+	<string key="DeleteNewsletter.Text" value="Do you want to delete the newsletter?" />
+
+	<string key="NewsletterElementProvider.DeleteNewsletterTypeLabel" value="Delete newsletter template" />
+	<string key="NewsletterElementProvider.DeleteNewsletterLabel" value="Delete newsletter" />
+	<string key="NewsletterElementProvider.AddNewNewsletterLabel" value="Add newsletter..." />
+	<string key="NewsletterElementProvider.AddNewNewsletterToolTip" value="Add newsletter" />
+	<string key="NewsletterElementProvider.EditNewsletterLabel" value="Edit newsletter" />
+	<string key="NewsletterElementProvider.EditNewsletterToolTip" value="Edit newsletter" />
+	<string key="Newsletter.AddNewDialog" value="Add new newsletter" />
+	<string key="Newsletter.FieldGroup" value="Settings" />
+	<string key="Newsletter.Subject" value="Subject" />
+	<string key="Newsletter.Content" value="Content" />
+	<string key="Newsletter.SubjectHelp" value="This text will appear in the Subject field of the newsletter received by a recipient." />
+	<string key="Newsletter.FromName" value="'From' name" />
+	<string key="Newsletter.FromNameHelp" value="This name will appear in the From field of the newsletter received by a recipient." />
+	<string key="Newsletter.FromEmail" value="'From' email" />
+	<string key="Newsletter.FromEmailHelp" value="This email address will appear in the From field of the newsletter received by a recipient." />
+	<string key="Newsletter.ReplyToEmail" value="'Reply to' email" />
+	<string key="Newsletter.ReplyToEmailHelp" value="This email address will be used to receive replies to this newsletter." />
+
+	<string key="ConfirmEmailTemplate.Name" value="Template name" />
+	<string key="ConfirmEmailTemplate.NameHelp" value="The name of the confirmation template." />
+	<string key="ConfirmEmailTemplate.Subject" value="Subject" />
+	<string key="ConfirmEmailTemplate.SubjectHelp" value="The subject of the confirmation email." />
+	<string key="ConfirmEmailTemplate.FromName" value="'From' name" />
+	<string key="ConfirmEmailTemplate.FromNameHelp" value="The name to use in the From field of the confirmation email." />
+	<string key="ConfirmEmailTemplate.FromEmail" value="'From' email" />
+	<string key="ConfirmEmailTemplate.FromEmailHelp" value="The email address to use in the From field of the confirmation email." />
+
+	<string key="NewsletterElementProvider.SendNewsletterLabel" value="Send newsletter" />
+	<string key="NewsletterElementProvider.SendNewsletterToolTip" value="Send newsletter" />
+	<string key="NewsletterElementProvider.StopSendingNewsletterLabel" value="Stop sending newsletter" />
+	<string key="NewsletterElementProvider.StopSendingNewsletterToolTip" value="Stop sending newsletter" />
+
+	<string key="Newsletter.PreviewLabel" value="Preview" />
+	<string key="AddMemberToTheMailList" value="Preview is only available when at least one person has been added to the mailing list. Please add at least one member and preview again." />
+
+	<string key="NewsletterElementProvider.ReSendNewsletterLabel" value="Send to new members" />
+	<string key="NewsletterElementProvider.ReSendNewsletterToolTip" value="Send this newsletter to members that haven’t received it yet." />
+	<string key="NewsletterElementProvider.StatisticsLabel" value="Statistics" />
+	<string key="NewsletterElementProvider.StatisticsToolTip" value="Statistics" />
+
+	<string key="NewsletterElementProvider.LocalizeNewsletterTypeLabel" value="Localize newsletter template" />
+	<string key="NewsletterElementProvider.LocalizeNewsletterTypeToolTip" value="Localize newsletter template" />
+	<string key="NewsletterElementProvider.LocalizeNewsletterLabel" value="Localize newsletter" />
+	<string key="NewsletterElementProvider.LocalizeNewsletterToolTip" value="Localize newsletter" />
+
+	<string key="SendNewsletter.SendNewsletterDialog" value="Send newsletter" />
+	<string key="SendNewsletter.SendImmediately" value="Send immediately" />
+	<string key="SendNewsletter.ScheduleMailing" value="Schedule mailing" />
+
+	<string key="SendNewsletter.Date" value="Date" />
+	<string key="SendNewsletter.DateHelp" value="Specify the date and time when the newsletter will be automatically sent." />
+	<string key="SendNewsletter.SelectDate" value="Select date" />
+	<string key="SendNewsletter.SelectFutureDate" value="You must select a date in the future" />
+
+	<string key="DeleteMailingList.LabelFieldGroup" value="Delete mailing list" />
+	<string key="DeleteMailingList.Text" value="Delete mailing list" />
+	<string key="MailingList.Layout" value="Layout" />
+	<string key="MailingList.FieldGroup" value="Mailing list" />
+	<string key="MailingList.Title.Label" value="Title" />
+	<string key="MailingList.Description.Label" value="Description" />
+
+	<string key="NewsletterElementProvider.SendTestLabel" value="Send test" />
+	<string key="NewsletterElementProvider.SendTestToolTip" value="Send test" />
+	<string key="SendingTest.LabelFieldGroup" value="Send test" />
+	<string key="SendingTest.Email" value="Email" />
+	<string key="SendingTest.EmailHelp" value="Specify the email address you want to send the test newsletter to." />
+	<string key="SendingTestWorkflow.IncorrectEmail" value="Incorrect email" />
+	<string key="SendingTestWorkflow.NewsletterSentTitle" value="Newsletter test sent" />
+	<string key="SendingTestWorkflow.NewsletterSentMessage" value="Newsletter test sent" />
+	<string key="SendingTestWorkflow.MissingMembersTitle" value="Missing members" />
+	<string key="SendingTestWorkflow.MissingMembersMessage" value="Missing members" />
+	<string key="SendingTestWorkflow.ErrorTitle" value="Error title" />
+
+	<string key="Statistics.Summary" value="Summary" />
+	<string key="Statistics.SummaryDescription" value="The number of members the newsletter has been sent to and the number of members who have opened the newsletter" />
+
+	<string key="Statistics.MembersSent" value="Sent" />
+	<string key="Statistics.MembersOpen" value="Opened" />
+	<string key="Statistics.Links" value="Links" />
+	<string key="Statistics.Link" value="Link" />
+	<string key="Statistics.LinkClicks" value="Clicks" />
+	<string key="Statistics.DomainsByActiveUsers" value="Domains by active users" />
+	<string key="Statistics.Domain" value="Domain" />
+	<string key="Statistics.CountActiveUsers" value="Active users" />
+	<string key="Statistics.DomainsByClicks" value="Domains by clicks" />
+	<string key="Statistics.CountClicks" value="Clicks" />
+	<string key="Statistics.MemberActivity" value="Member activity" />
+	<string key="Statistics.Members" value="Members" />
+
+	<string key="Statistics.LinksDescription" value="The number of clicks on each link in the newsletter" />
+	<string key="Statistics.DomainsByActiveUsersDescription" value="The number of members who have opened the newsletter - grouped by their domains" />
+	<string key="Statistics.DomainsByClicksDescription" value="The number of clicks on each link in the newsletter – grouped by domains" />
+	<string key="Statistics.MemberActivityDescription" value="The number of points each member (represented by his or her email address) has gained. Each point is added if the member opens the newsletter or clicks a link in it." />
+
+	<string key="Statistics.Email" value="Email" />
+	<string key="Statistics.Opened" value="Opened" />
+	<string key="Statistics.Points" value="Points" />
+
+	<string key="Statistics.UnsubscribedMembers" value="Unsubscribe link clicks by members" />
+	<string key="Statistics.UnsubscribedMembersDescription" value="A list of email addresses of the members who have clicked the Unsubscribe link in the newsletter" />
+	<string key="Statistics.Empty" value="Empty" />
+
+	<string key="Layout.NewsletterTypes" value="Newsletter Templates" />
+	<string key="NewsletterTypeElementProvider.AddNewNewsletterTypeLabel" value="Add newsletter template" />
+	<string key="NewsletterTypeElementProvider.AddNewNewsletterTypeToolTip" value="Add newsletter template" />
+
+	<string key="SendingNewsletterActualWorkflow.ErrorTitle" value="Error title" />
+	<string key="SelectNewsletterType" value="Newsletter template" />
+	<string key="SelectNewsletterTypeHelp" value="Select the newsletter template you want this newsletter to be based on." />
+	<string key="AddNewNewsletterWorkflow.MissingNewsletterTypeTitle" value="Newsletter Template Required" />
+	<string key="AddNewNewsletterWorkflow.MissingNewsletterTypeMessage" value="To add a newsletter, a newsletter template is required, but none has been created. Create a newsletter template in Layout and try again." />
+
+	<string key="EditNewsletterTypeWorkflow.InvalidXmlTitle" value="Unable to save template" />
+	<string key="EditNewsletterTypeWorkflow.InvalidXmlMessage" value="The template markup did not validate. {0}" />
+
+	<string key="NewsletterType.UnsubscribePageHelp" value="This is a page with the Unsubscribe form. It opens when a recipient clicks the Unsubscribe link in a newsletter based on this template." />
+
+	<string key="NeverMail.DeleteEmails" value="Delete emails" />
+	<string key="NeverMail.ValidateEmail" value="Please enter a valid email address and try again." />
+
+	<string key="NewsletterElementProvider.AddNeverMailListLabel" value="Add to 'Never mail me' list" />
+	<string key="NewsletterElementProvider.AddNeverMailListToolTip" value="Add to 'Never mail me' list" />
+	<string key="NewsletterElementProvider.DeleteNeverMailListLabel" value="Delete from  'Never mail me' list" />
+	<string key="NewsletterElementProvider.DeleteNeverMailListToolTip" value="Delete from  'Never mail me' list" />
+	<string key="NewsletterElementProvider.ViewNeverMailListLabel" value="View 'Never mail me' list" />
+	<string key="NeverMail.Emails.Layout" value="Emails" />
+	<string key="NeverMail.Emails" value="Emails" />
+	<string key="NeverMail.EmailsHelp" value="Type in or paste one or more email addresses you want to add to the Never Mail Me list. Start each email address from a new line." />
+	<string key="NeverMail.UnsubscribeSuccessfully" value="Successfully unsubscribed" />
+
+	<string key="DeleteNewsletterTypeWorkflow.CascadeDeleteErrorTitle" value="Delete aborted" />
+	<string key="DeleteNewsletterTypeWorkflow.CascadeDeleteErrorMessage" value="This newsletter template is used by newsletters and thus cannot be deleted." />
+
+	<string key="NeverMail.ConfirmEmails" value="These email addresses will be added to the Never Mail Me list. If an email address you have entered in the previous step does not appear here, it is already on the list." />
+	<string key="NeverMail.ConfirmDeleteEmails" value="These email addresses will be removed from the Never Mail Me list. If an email address you have entered in the previous step does not appear here, it is already not on the list." />
+
+	<string key="LocalizeNewsletterWorkflow.PleaseLocalizeNewsletterTitle" value="Please localize newsletter template" />
+	<string key="LocalizeNewsletterWorkflow.PleaseLocalizeNewsletterTitleMessage" value="Please localize the related newsletter template ('{0}') before localizing this newsletter." />
+
+</strings>

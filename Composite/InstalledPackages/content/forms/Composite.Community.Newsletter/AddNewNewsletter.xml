@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cms:formdefinition xmlns="http://www.composite.net/ns/management/bindingforms/std.ui.controls.lib/1.0" xmlns:f="http://www.composite.net/ns/management/bindingforms/std.function.lib/1.0" xmlns:cms="http://www.composite.net/ns/management/bindingforms/1.0">
+	<cms:bindings>
+		<cms:binding name="Newsletter" type="Composite.Community.Newsletter.Data.Types.INewsletter" />
+	</cms:bindings>
+	<cms:layout iconhandle="page-add-page" label="${Composite.Community.Newsletter, Newsletter.AddNewDialog}">
+		<FieldGroup Label="${Composite.Community.Newsletter, Newsletter.FieldGroup}">
+			<TextBox Label="${Composite.Community.Newsletter, Newsletter.Subject}" Help="${Composite.Community.Newsletter, Newsletter.SubjectHelp}">
+				<TextBox.Text>
+					<cms:bind source="Newsletter.Subject" />
+				</TextBox.Text>
+			</TextBox>
+			<TextBox Label="${Composite.Community.Newsletter, Newsletter.FromName}" Help="${Composite.Community.Newsletter, Newsletter.FromNameHelp}">
+				<TextBox.Text>
+					<cms:bind source="Newsletter.FromName" />
+				</TextBox.Text>
+			</TextBox>
+			<TextBox Label="${Composite.Community.Newsletter, Newsletter.FromEmail}" Help="${Composite.Community.Newsletter, Newsletter.FromEmailHelp}">
+				<TextBox.Text>
+					<cms:bind source="Newsletter.FromEmail" />
+				</TextBox.Text>
+			</TextBox>
+			<TextBox Label="${Composite.Community.Newsletter, Newsletter.ReplyToEmail}" Help="${Composite.Community.Newsletter, Newsletter.ReplyToEmailHelp}">
+				<TextBox.Text>
+					<cms:bind source="Newsletter.ReplyToEmail" />
+				</TextBox.Text>
+			</TextBox>
+		</FieldGroup>
+	</cms:layout>
+</cms:formdefinition>

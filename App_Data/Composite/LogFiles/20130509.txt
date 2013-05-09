@@ -1,0 +1,46 @@
+﻿20130509 08:49:12.3701 2 36 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 08:49:12:36 in process 20040
+20130509 10:29:15.1135 2 94 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 10:29:15:11 in process 23620
+20130509 10:31:46.8362 3 32 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 10:31:46:83 in process 23620
+20130509 10:38:49.7403 4 89 Error FunctionWrapper  System.Xml.Xsl.XslLoadException: 'xsl:otherwise' cannot be a child of the 'a' element. An error occurred at (0,0).
+   at System.Xml.Xsl.XslCompiledTransform.LoadInternal(Object stylesheet, XsltSettings settings, XmlResolver stylesheetResolver)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.GetXslCompiledTransform()
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130509 10:43:02.6388 4 72 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 10:43:02:63 in process 23620
+20130509 10:45:51.0964 5 89 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 10:45:51:09 in process 23620
+20130509 10:47:33.6293 6 83 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 6 ended at 10:47:33:62 in process 23620
+20130509 11:01:23.8618 7 94 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 7 ended at 11:01:23:85 in process 23620
+20130509 11:16:52.6159 8 80 Error Composite.Community.Newsletter.Workflow.SendingTestWorkflow  The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+20130509 11:17:24.6748 8 85 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 8 ended at 11:17:24:67 in process 23620
+20130509 11:18:36.9319 9 58 Information Composite.Community.Newsletter.Workflow.SendingNewsletterActualWorkflow  newsletter sent to 1 recipients
+20130509 11:18:36.9659 9 58 Information Composite.Community.Newsletter.Workflow.SendingNewsletterActualWorkflow  newsletter sent to 0 recipients
+20130509 11:18:36.9789 9 58 Information Composite.Community.Newsletter.Workflow.SendingNewsletterActualWorkflow  Done sending newsletter acc9a789-a6eb-4ba1-90fb-659801baa79f
+20130509 11:33:36.7754 9 43 Warning JsRequestHandler  File D:\CompositeC1\Deploy\ERA\Composite\scripts\aspnetajax\MicrosoftAjax.debug.js not found
+20130509 11:33:36.8154 9 17 Warning JsRequestHandler  File D:\CompositeC1\Deploy\ERA\Composite\scripts\aspnetajax\MicrosoftAjaxWebForms.debug.js not found
+20130509 11:33:37.1864 9 63 Warning JsRequestHandler  File D:\CompositeC1\Deploy\ERA\Composite\scripts\aspnetajax\MicrosoftAjaxTimer.debug.js not found
+20130509 14:19:13.5467 9 44 Error FunctionWrapper  System.Xml.Xsl.XslLoadException: The variable or parameter 'EmailBoxText' is either not defined or it is out of scope. An error occurred at (0,0).
+   at System.Xml.Xsl.XslCompiledTransform.LoadInternal(Object stylesheet, XsltSettings settings, XmlResolver stylesheetResolver)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.GetXslCompiledTransform()
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130509 14:19:13.7497 9 76 Error FunctionWrapper  System.Xml.Xsl.XslLoadException: The variable or parameter 'EmailBoxText' is either not defined or it is out of scope. An error occurred at (0,0).
+   at System.Xml.Xsl.XslCompiledTransform.LoadInternal(Object stylesheet, XsltSettings settings, XmlResolver stylesheetResolver)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.GetXslCompiledTransform()
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130509 15:09:16.7205 9 39 Information Composite.Community.Newsletter.Workflow.SendingNewsletterActualWorkflow  newsletter sent to 3 recipients
+20130509 15:09:16.7345 9 39 Information Composite.Community.Newsletter.Workflow.SendingNewsletterActualWorkflow  newsletter sent to 0 recipients
+20130509 15:09:16.7675 9 39 Information Composite.Community.Newsletter.Workflow.SendingNewsletterActualWorkflow  Done sending newsletter 4841bfe2-9209-4b34-a078-214efec1c6f5
+20130509 15:43:03.9784 9 62 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 9 ended at 15:43:03:97 in process 23620
+20130509 15:44:14.2094 10 11 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 10 ended at 15:44:14:20 in process 23620
+20130509 16:31:15.6508 11 74 Error FunctionWrapper  System.Xml.Xsl.XslLoadException: The variable or parameter 'Url' is either not defined or it is out of scope. An error occurred at (0,0).
+   at System.Xml.Xsl.XslCompiledTransform.LoadInternal(Object stylesheet, XsltSettings settings, XmlResolver stylesheetResolver)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.GetXslCompiledTransform()
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130509 16:31:50.7828 11 24 Error FunctionWrapper  System.Xml.Xsl.XslLoadException: The variable or parameter 'Url' is either not defined or it is out of scope. An error occurred at (0,0).
+   at System.Xml.Xsl.XslCompiledTransform.LoadInternal(Object stylesheet, XsltSettings settings, XmlResolver stylesheetResolver)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.GetXslCompiledTransform()
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130509 16:45:32.3448 11 13 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 11 ended at 16:45:32:34 in process 23620

@@ -1,0 +1,59 @@
+﻿20130424 10:52:41.4848 2 11 Warning ConsoleMessageServiceFacade  Console 'key523829149780795' has a last known change numer of 7, but server current number is 1.
+20130424 10:52:49.9803 2 13 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 10:52:49:93 in process 1488
+20130424 11:45:26.6508 3 12 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 11:45:26:64 in process 1488
+20130424 11:45:45.7989 4 41 Warning ConsoleMessageServiceFacade  Console 'key6938181150929394' has a last known change numer of 13, but server current number is 1.
+20130424 11:45:45.8029 4 48 Warning ConsoleMessageServiceFacade  Console 'key523829149780795' has a last known change numer of 13, but server current number is 1.
+20130424 11:45:47.3890 4 44 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 11:45:47:38 in process 1488
+20130424 16:36:02.3011 5 30 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 16:36:02:26 in process 1488
+20130424 17:04:49.4309 6 30 Warning FunctionProviderRegistry  Function name clash: 'My.Navigation.MainMenu'
+20130424 17:05:19.2016 6 40 Error FileBasedFunctionProvider  Error instantiating MainMenu function
+20130424 17:05:19.5416 6 40 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\ERA\Website\App_Data\Razor\My\Navigation\MainMenu.cshtml(17): error CS1001: Identifier expected
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Functions.FunctionProviders.RazorFunctionProvider.RazorFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130424 17:11:14.8539 6 19 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 6 ended at 17:11:14:84 in process 1488
+20130424 17:11:41.6325 8 58 Warning AttributeBasedApplicationStartupHandler  Failed to open file 'D:\CompositeC1\ERA\Website\App_Data\Composite\Cache\Temp\StartupHandlersCache.xml'
+20130424 17:11:42.5505 8 58 Error AttributeBasedApplicationStartupHandler  System.IO.IOException: The process cannot access the file 'D:\CompositeC1\ERA\Website\App_Data\Composite\Cache\Temp\StartupHandlersCache.xml' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Composite.Plugins.Application.ApplicationStartupHandlers.AttributeBasedApplicationStartupHandler.AttributeBasedApplicationStartupHandler.GetCachedAssemblyInfo()
+20130424 17:11:51.6630 8 58 Error FileBasedFunctionProvider  Error instantiating MainMenu function
+20130424 17:11:58.0404 8 58 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\ERA\Website\App_Data\Razor\My\Navigation\MainMenu.cshtml(17): error CS1001: Identifier expected
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Functions.FunctionProviders.RazorFunctionProvider.RazorFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130424 17:11:58.2284 8 58 Warning FunctionProviderRegistry  Function name clash: 'My.Navigation.MainMenu'
+20130424 17:15:06.5152 8 56 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 8 ended at 17:15:06:51 in process 1488
+20130424 20:46:49.5634 2  1 Error FileBasedFunctionProvider  Error instantiating MainMenu function
+20130424 20:46:49.6344 2  1 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\Deploy\ERA\Website\App_Data\Razor\My\Navigation\MainMenu.cshtml(17): error CS1001: Identifier expected
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Functions.FunctionProviders.RazorFunctionProvider.RazorFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130424 22:47:07.6153 2 45 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 22:47:07:60 in process 11052
+20130424 22:48:38.7692 3 53 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 22:48:38:76 in process 11052

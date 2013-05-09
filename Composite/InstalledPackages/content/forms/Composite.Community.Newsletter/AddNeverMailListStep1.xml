@@ -1,0 +1,12 @@
+<cms:formdefinition xmlns="http://www.composite.net/ns/management/bindingforms/std.ui.controls.lib/1.0" xmlns:f="http://www.composite.net/ns/management/bindingforms/std.function.lib/1.0" xmlns:cms="http://www.composite.net/ns/management/bindingforms/1.0">
+	<cms:bindings>
+		<cms:binding name="Emails" type="System.String"/>
+	</cms:bindings>
+	<cms:layout iconhandle="users-adduser" label="${Composite.Community.Newsletter, NeverMail.Emails.Layout}">
+		<FieldGroup Label="${Composite.Community.Newsletter, NeverMail.Emails}">
+			<TextArea Label="${Composite.Community.Newsletter, NeverMail.Emails}" Help="${Composite.Community.Newsletter, NeverMail.EmailsHelp}">
+				<cms:bind source="Emails" />
+			</TextArea>
+		</FieldGroup>
+	</cms:layout>
+</cms:formdefinition>

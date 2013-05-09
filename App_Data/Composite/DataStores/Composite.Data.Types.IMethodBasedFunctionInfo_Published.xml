@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MethodBasedFunctionInfoElementsElements>
+  <MethodBasedFunctionInfoElements Id="3562844a-f8e0-4f2c-9a8d-0cc59cedf268" Type="Composite.Community.Newsletter.MailingListProviderFacade" MethodName="Unsubscribe" Namespace="Composite.Community.Newsletter" UserMethodName="Unsubscribe" />
+  <MethodBasedFunctionInfoElements Id="38c67ff5-6d96-49d1-b402-63d34e360d35" Type="Composite.Forms.ContactForm.Functions" MethodName="GetEmbedableFieldsTypes" Namespace="Composite.Forms.ContactForm.Functions" UserMethodName="GetEmbedableFieldsTypes" />
+  <MethodBasedFunctionInfoElements Id="7805a5a0-a287-4b07-be43-ec5f9f78a1fe" Type="Composite.Community.Newsletter.SubjectBased.MailingListFacade" MethodName="ShortLink" Namespace="Composite.Community.Newsletter.SubjectBased" UserMethodName="ShortLink" />
+  <MethodBasedFunctionInfoElements Id="97a2ad9d-ed0b-4fd9-b9a2-0f4724bcc805" Type="Composite.Community.Newsletter.SubjectBased.MailingListFacade" MethodName="GetMailingListDefinitionsXml" Namespace="Composite.Community.Newsletter.SubjectBased" UserMethodName="GetMailingListDefinitionsXml" />
+  <MethodBasedFunctionInfoElements Id="a281f9b7-9bef-4cf0-95ff-d1a734c891f4" Type="Composite.Community.Newsletter.MailingListProviderFacade" MethodName="XsltExtensions" Namespace="Composite.Community.Newsletter" UserMethodName="XsltExtensions" />
+  <MethodBasedFunctionInfoElements Id="b56142ef-148b-4a23-804d-479d14cf6703" Type="Composite.Community.Newsletter.SubjectBased.MailingListFacade" MethodName="GetMemberObjectTypes" Namespace="Composite.Community.Newsletter.SubjectBased" UserMethodName="GetMemberObjectTypes" />
+  <MethodBasedFunctionInfoElements Id="b9b9360e-5c01-4e0d-b888-6aa19b65c4a7" Type="Composite.Community.Newsletter.MailingListProviderFacade" MethodName="GetMailingListDefinitionsXml" Namespace="Composite.Community.Newsletter" UserMethodName="GetMailingListDefinitionsXml" />
+  <MethodBasedFunctionInfoElements Id="c414ff8b-77ba-494e-acb1-37df953db8ea" Type="Composite.Community.Newsletter.MailingListProviderFacade" MethodName="UnsubscribeEmail" Namespace="Composite.Community.Newsletter" UserMethodName="UnsubscribeEmail" />
+  <MethodBasedFunctionInfoElements Id="cfdba490-4f7c-4060-8af8-3150cfdea918" Type="Composite.Community.Newsletter.SubjectBased.MailingListFacade" MethodName="Subscribe" Namespace="Composite.Community.Newsletter.SubjectBased" UserMethodName="Subscribe" />
+  <MethodBasedFunctionInfoElements Id="d5bf57bc-76b4-4791-8559-024ae4bd22a0" Type="Composite.Forms.ContactForm.Functions" MethodName="Send" Namespace="Composite.Forms.ContactForm.Functions" UserMethodName="Send" />
+  <MethodBasedFunctionInfoElements Id="eebbeca2-e855-4907-829d-b1f05c5c3404" Type="Composite.Community.AddThis" MethodName="GetOptionsXml" Namespace="Composite.Community.AddThis" UserMethodName="GetOptionsXml" />
+</MethodBasedFunctionInfoElementsElements>

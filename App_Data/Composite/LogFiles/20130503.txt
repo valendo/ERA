@@ -1,0 +1,46 @@
+﻿20130503 21:01:13.4015 3 47 Information MimeTypeInfo  Uploading file 'bannernow.swf'. MIME type from extension: 'application/x-shockwave-flash'
+20130503 21:15:11.8497 3 47 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 21:15:11:84 in process 6852
+20130503 21:33:01.4313 4 25 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 21:33:01:43 in process 6852
+20130503 23:09:10.5798 2 35 Error CodeGenerationManager  Compile error: CS1619(0): Cannot create temporary file 'd:\hosting\eratech.vn\httpdocs\Bin\CSCA552.tmp' -- Access is denied. 
+20130503 23:09:10.7673 2 35 Critical WorkflowFacade  System.InvalidOperationException: Compile error: CS1619(0): Cannot create temporary file 'd:\hosting\eratech.vn\httpdocs\Bin\CSCA552.tmp' -- Access is denied. 
+
+   at Composite.Core.Types.CodeGenerationManager.Compile(CodeGenerationBuilder builder)
+   at Composite.Core.Types.CodeGenerationManager.GenerateCompositeGeneratedAssembly(Boolean forceGeneration)
+   at Composite.Data.GeneratedTypes.GeneratedTypesFacadeImpl.UpdateType(UpdateDataTypeDescriptor updateDataTypeDescriptor)
+   at Composite.Data.GeneratedTypes.GeneratedTypesFacade.UpdateType(UpdateDataTypeDescriptor updateDataTypeDescriptor)
+   at Composite.Data.GeneratedTypes.GeneratedTypesHelper.UpdateOldType(Boolean validateOnly, Boolean originalTypeDataExists, String& errorMessage)
+   at Composite.Data.GeneratedTypes.GeneratedTypesHelper.CreateType(Boolean originalTypeHasData)
+   at Composite.Plugins.Elements.ElementProviders.GeneratedDataTypesElementProvider.EditInterfaceTypeWorkflow.finalizeStateCodeActivity_ExecuteCode(Object sender, EventArgs e)
+   at System.Workflow.ComponentModel.Activity.RaiseEvent(DependencyProperty dependencyEvent, Object sender, EventArgs e)
+   at System.Workflow.Activities.CodeActivity.Execute(ActivityExecutionContext executionContext)
+   at System.Workflow.ComponentModel.ActivityExecutor`1.Execute(T activity, ActivityExecutionContext executionContext)
+   at System.Workflow.ComponentModel.ActivityExecutor`1.Execute(Activity activity, ActivityExecutionContext executionContext)
+   at System.Workflow.ComponentModel.ActivityExecutorOperation.Run(IWorkflowCoreRuntime workflowCoreRuntime)
+   at System.Workflow.Runtime.Scheduler.Run()
+
+20130503 23:09:10.8142 2 35 Critical Web Application Error, Exception  System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.InvalidOperationException: Compile error: CS1619(0): Cannot create temporary file 'd:\hosting\eratech.vn\httpdocs\Bin\CSCA552.tmp' -- Access is denied. 
+
+   at Composite.C1Console.Workflow.WorkflowFacadeImpl.RunWorkflow(Guid instanceId)
+   at Composite.C1Console.Workflow.WorkflowFlowController.OnSave(FlowToken flowToken, Dictionary`2 bindings, FlowControllerServicesContainer serviceContainer)
+   at Composite.Core.WebClient.FlowMediators.FormFlowRendering.FormFlowUiDefinitionRenderer.<>c__DisplayClass7.<Render>b__1(Object sender, EventArgs e)
+   at Composite_Forms_DocumentExecutionContainer.OnMessage()
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.RuntimeMethodHandle.InvokeMethodFast(IRuntimeMethodInfo method, Object target, Object[] arguments, Signature sig, MethodAttributes methodAttributes, RuntimeType typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Composite.Core.WebClient.UiControlLib.Generic.PostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+20130503 23:09:10.8142 2 35 Critical Web Application Error, Exception | INNER  System.InvalidOperationException: Compile error: CS1619(0): Cannot create temporary file 'd:\hosting\eratech.vn\httpdocs\Bin\CSCA552.tmp' -- Access is denied. 
+
+   at Composite.C1Console.Workflow.WorkflowFacadeImpl.RunWorkflow(Guid instanceId)
+   at Composite.C1Console.Workflow.WorkflowFlowController.OnSave(FlowToken flowToken, Dictionary`2 bindings, FlowControllerServicesContainer serviceContainer)
+   at Composite.Core.WebClient.FlowMediators.FormFlowRendering.FormFlowUiDefinitionRenderer.<>c__DisplayClass7.<Render>b__1(Object sender, EventArgs e)
+   at Composite_Forms_DocumentExecutionContainer.OnMessage()
+
+20130503 23:54:10.9079 2  1 Warning ConsoleMessageServiceFacade  Console 'key7315938499240695' are requesting messages that are more than 60 seconds old. Console has last known change number 18, server is now at 39. Debug XML dump saved at '~/App_Data/Composite/Cache/Temp'.
+20130503 23:57:36.9392 2 27 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 23:57:36:93 in process 1348
+20130503 23:58:13.4236 2 27 Error CodeGenerationManager  Compile error: CS1619(0): Cannot create temporary file 'd:\hosting\eratech.vn\httpdocs\Bin\CSCA5B9.tmp' -- Access is denied. 

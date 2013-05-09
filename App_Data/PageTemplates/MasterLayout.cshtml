@@ -1,0 +1,75 @@
+﻿@inherits CompositeC1WebPage
+
+@{
+    var stylesFolder = "~/Frontend/Styles";
+    var scriptsFolder = "~/Frontend/Scripts";
+}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@(CurrentPageNode.Title) - ERATech LTD</title>
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="@Href(stylesFolder)/reset.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="@Href(stylesFolder)/layout.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="@Href(stylesFolder)/style.css" type="text/css" media="all"/>
+    <script type="text/javascript" src="@Href(scriptsFolder)/jquery-1.6.js" ></script>
+    <script type="text/javascript" src="@Href(scriptsFolder)/cufon-yui.js"></script>
+    <script type="text/javascript" src="@Href(scriptsFolder)/cufon-replace.js"></script>
+    <script type="text/javascript" src="@Href(scriptsFolder)/gillsans_400.font.js"></script>
+    <script type="text/javascript" src="@Href(scriptsFolder)/tabs.js"></script>
+
+    <!--[if lt IE 9]>
+  	<script type="text/javascript" src="@Href(scriptsFolder)/html5.js"></script>
+	<style type="text/css">
+		.bg{ behavior: url(@Href(scriptsFolder)/PIE.htc); }
+	</style>
+  <![endif]-->
+    <!--[if lt IE 7]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/~/frontend/~/frontend/images/upgrade.jpg" border="0"  alt="" /></a>
+		</div>
+	<![endif]-->
+    @if (!string.IsNullOrEmpty(CurrentPageNode.Description))
+    {
+        <meta name="Description" content="@CurrentPageNode.Description"/>
+    }
+    <f:function xmlns:f="http://www.composite.net/ns/function/1.0" name="Composite.Web.Html.Template.CommonMetaTags">
+		<f:param name="Designer" value="Composite C1 starter site" />
+	</f:function>
+</head>
+<body id="page2">
+    <asp:form xmlns:asp="http://www.composite.net/ns/asp.net/controls"> 
+    <div class="body1">
+        <div class="body2">
+            <div class="body5">
+                <div class="main">
+                    <!-- header -->
+                    <header>
+                        @PageTemplateFeature("Header")
+                    </header>
+                    <div class="ic">More Website Templates  at TemplateMonster.com!</div>
+                    <!-- header end-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body3">
+        <div class="main">
+            <!-- content -->
+            <article id="content">
+                @RenderBody()
+            </article>
+        </div>
+    </div>
+    @PageTemplateFeature("Footer")
+    </asp:form>
+    <script type="text/javascript"> Cufon.now(); </script>
+    <script>
+        $(document).ready(function () {
+            tabs.init();
+        })
+    </script>
+    @PageTemplateFeature("GoogleAnalytics")
+</body>
+</html>

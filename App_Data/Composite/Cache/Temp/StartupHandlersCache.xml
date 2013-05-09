@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<SubscribedTypesCache xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Assemblies>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite</AssemblyName>
+      <LastModified>2013-05-03T22:14:24+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite.Workflows</AssemblyName>
+      <LastModified>2013-05-03T22:14:06+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>ICSharpCode.SharpZipLib</AssemblyName>
+      <LastModified>2013-05-03T22:13:16+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Common</AssemblyName>
+      <LastModified>2013-05-03T22:13:16+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Logging</AssemblyName>
+      <LastModified>2013-05-03T22:13:26+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Validation</AssemblyName>
+      <LastModified>2013-05-03T22:13:28+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.ObjectBuilder</AssemblyName>
+      <LastModified>2013-05-03T22:13:30+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Web.Infrastructure</AssemblyName>
+      <LastModified>2013-05-03T22:13:32+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>System.Web.Razor</AssemblyName>
+      <LastModified>2013-05-03T22:13:48+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>System.Web.WebPages.Deployment</AssemblyName>
+      <LastModified>2013-05-03T22:13:36+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>System.Web.WebPages</AssemblyName>
+      <LastModified>2013-05-03T22:13:48+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>System.Web.WebPages.Razor</AssemblyName>
+      <LastModified>2013-05-03T22:13:50+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>TidyNet</AssemblyName>
+      <LastModified>2013-05-03T22:13:58+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite.Community.Newsletter.DataTypeBased</AssemblyName>
+      <LastModified>2013-05-09T11:01:13.9362814+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite.Community.Newsletter</AssemblyName>
+      <LastModified>2013-05-09T11:01:13.5782609+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite.Community.Newsletter.FunctionBased</AssemblyName>
+      <LastModified>2013-05-09T11:01:14.0812897+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite.Community.Newsletter.SubjectBased</AssemblyName>
+      <LastModified>2013-05-09T11:01:14.173295+07:00</LastModified>
+    </AssemblyInfo>
+  </Assemblies>
+</SubscribedTypesCache>

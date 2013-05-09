@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://www.composite.net/ns/function/1.0" xmlns:lang="http://www.composite.net/ns/localization/1.0" xmlns:rendering="http://www.composite.net/ns/rendering/1.0" xmlns:asp="http://www.composite.net/ns/asp.net/controls">
+	<!-- Please note that e-mail templates like this should be tested using different e-mail clients -->
+	<!-- In this template, a lot of 'inline styling' have been added - this strategy typically works well with most e-mail clients -->
+	<!-- Note that you can add <f:function name="..." /> elements to your template to have auto generated content -->
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<table cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+								<td style="font-size: 12px; font-weight: bold; color: #fff; line-height: 1.5em;font-family: Helvetica, Arial, sans-serif; width: 100%;text-align: center;background: #98c332; padding:8px; margin:4px">
+								<style>.zd_link {color:#FFF;}</style>ERA Tech LTD Newsletter
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align:center;padding-left:4px">
+					<table width="100%">
+						<tr>
+							<td valign="top" style="width: 75%; font-size: 12px; font-family: Arial;font-style:normal; font-variant:normal;padding:8px;text-align:left">
+								<rendering:placeholder id="content" title="Content" default="true" />
+							</td>
+							<td valign="top" style="width: 25%; font-size: 12px; font-family: Arial;font-style:normal; font-variant:normal;padding:8px;text-align:left;background-color: background-color: #C8f372; border: 1px solid #98c332; ">
+								<div>
+									<rendering:placeholder id="rightcolumnplaceholder" title="Right column" default="false" />
+								</div>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table width="100%">
+						<tr>
+							<td style="font-size: 12px; font-weight: bold; color: #fff; line-height: 1.5em;font-family: Helvetica, Arial, sans-serif; width: 100%;text-align: center;background: #98c332; padding:8px; margin:4px">
+								
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

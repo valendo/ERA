@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataTypeDescriptor dataTypeId="863f96f5-296d-4ec3-87aa-cf8e4793c0fc" name="INeverMail" namespace="Composite.Community.Newsletter.Data.Types" hasCustomPhysicalSortOrder="false" isCodeGenerated="false" cachable="false" typeManagerTypeName="Composite.Community.Newsletter.Data.Types.INeverMail,Composite.Community.Newsletter">
+  <DataAssociations />
+  <DataScopes>
+    <DataScopeIdentifier name="public" />
+  </DataScopes>
+  <KeyPropertyNames>
+    <KeyPropertyName name="Email" />
+  </KeyPropertyNames>
+  <SuperInterfaces />
+  <Fields>
+    <DataFieldDescriptor id="5df09995-b614-4e91-8371-c856cfe27b6c" name="Email" isNullable="false" position="1000" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='String'Length='255'" isReadOnly="false">
+      <FormRenderingProfile />
+    </DataFieldDescriptor>
+  </Fields>
+</DataTypeDescriptor>

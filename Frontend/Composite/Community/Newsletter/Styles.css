@@ -1,0 +1,91 @@
+.NewsletterForm {
+	width: 380px;
+}
+
+.NewsletterForm fieldset {
+	display: block;
+	border: 0;
+	margin: 10px 0 10px 0;
+	width: 370px;
+}
+
+.NewsletterForm .Fields label {
+	clear: both;
+	display: block;
+	float: left;
+	width: 170px;	  
+	margin-top: 5px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.NewsletterForm .Fields input {
+	display: block;
+	float: left;
+	width: 180px;
+	border: 1px solid #000000;
+	margin-top: 5px;
+	height: 19px;
+}
+
+.NewsletterForm .Fields div.Checkbox {
+	display: block;
+	float: left;
+	margin-top: 2px;
+	width: 180px;
+}
+
+.NewsletterForm .Fields div.Checkbox div {
+	width: 180px;
+}
+
+.NewsletterForm .Fields div.Checkbox input {
+	float: left;
+	width: auto;
+	height: 16px;
+	border: 0px;
+	margin-top: 6px;
+}
+
+.NewsletterForm .Fields div.Checkbox label {
+	clear: none;
+	float: right;
+	width: 140px;
+	margin-top: 3px;
+	text-align: left;
+	margin-right: 10px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.NewsletterForm .Fields div.Checkbox label.Description {
+	clear: both;
+	float: none;
+	color: #888888;
+	font-style: italic;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+
+.NewsletterForm .Error {
+	clear: both;
+	text-align: right;
+	color: #FF0000;
+	width: auto;
+}
+
+.NewsletterForm .Success {
+	clear: both;
+	text-align: right;
+	width: auto;
+}
+
+.NewsletterForm .Buttons input.Submit {
+	float: right;
+}
+
+#UnsubscribeeForm .Fields div.Checkbox label,
+#UnsubscribeeForm .Fields div.Checkbox label.Description {
+	float:left;
+	margin-left: 0px;
+}

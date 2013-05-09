@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserElementsElements>
+  <UserElements Id="b392b86e-7aca-47af-ba75-0417f1f0cccf" Username="admin" EncryptedPassword="lEV2pVV5pHiV4AXdrKwj61zl6z7MVQxO" Email="test@test.com" Group="Administrators" />
+  <UserElements Id="b911e220-97a8-4a39-9d42-3fa1798ea8c6" Username="eratech" EncryptedPassword="q5CHUE1H0kiSEhnj/xFgTg98TJ8hwHOf" Email="" Group="Editors" />
+</UserElementsElements>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PartnerElements>
+  <Partner Id="0116acea-b4b0-4ff5-8696-164c8d471103" Name="EMC" Logo="MediaArchive:ed8be3c3-f0fb-4691-8f90-93c771c18161" Url="http://google.com.vn" />
+  <Partner Id="020d512b-2e4b-4a2b-b4fa-3906d62db735" Name="McAfee" Logo="MediaArchive:f906ee5e-6222-4827-ab72-243fc27a78e5" Url="" />
+  <Partner Id="0ab4c4bd-151a-4630-b2fe-159639e51357" Name="Dell" Logo="MediaArchive:98961c33-f237-4a8e-bb33-ac39f61ddba8" Url="" />
+  <Partner Id="0f7adac9-2568-4f4d-a10a-4e06551125d9" Name="eScan" Logo="MediaArchive:24a1fc1d-2457-4b6e-9b36-dd48a6e159ef" Url="" />
+  <Partner Id="132f29e3-0f82-42c3-bebf-ac788440a898" Name="Paloalto" Logo="MediaArchive:29ca742d-462f-49a7-854f-0929a51c9a3e" Url="" />
+  <Partner Id="1831732d-d0fe-4d7c-8a6e-1b27c29a399f" Name="Citrix" Logo="MediaArchive:a4afd0f1-65c2-4318-b2a5-6f956a4ac01b" Url="" />
+  <Partner Id="2179853e-abc8-42a8-8e63-87b9904438bb" Name="APC" Logo="MediaArchive:c3906c86-9a71-4f5b-ab22-6279d4f932d4" Url="" />
+  <Partner Id="24581d8b-9fa9-431f-a610-95ba742ca035" Name="Infotrend" Logo="MediaArchive:58d132bf-5c14-4d17-aa46-3d81e718d103" Url="" />
+  <Partner Id="3afa5e95-73ed-4820-ac69-fda055043869" Name="Polycom" Logo="MediaArchive:08b4ee5c-f51c-41d9-8b4a-4c867efd781e" Url="" />
+  <Partner Id="454380c7-34e2-44c2-b805-3b33c0260cf6" Name="NetApp" Logo="MediaArchive:73134d9b-3ff8-4b3f-be55-5efcc0b838c6" Url="" />
+  <Partner Id="47efa456-048d-403a-a06a-edc616ebede1" Name="Peplink" Logo="MediaArchive:4ce7f3c5-672a-4adb-a675-f0f899900e11" Url="" />
+  <Partner Id="4ed94cee-3977-4c9d-8110-dd8bbbf5b76b" Name="Tipping Point" Logo="MediaArchive:cef962c5-3531-4f95-9300-988c4041a58f" Url="" />
+  <Partner Id="547df77b-f089-45e6-8692-5c3003513bbd" Name="Cisco" Logo="MediaArchive:a6f199ee-b922-4b19-90e4-f937ee39deac" Url="" />
+  <Partner Id="61afb388-0c44-445a-9b17-5ff8ebc945f8" Name="Secure Computing" Logo="MediaArchive:931eb2ff-3c18-48dc-a617-bbc007c0230b" Url="" />
+  <Partner Id="77c7649c-acb4-4ae6-b6d9-b6ef236bfee2" Name="Cyberoam" Logo="MediaArchive:fb8bb3b2-cc4a-478a-b634-db1d2752db55" Url="" />
+  <Partner Id="798ed943-c212-405c-bb71-5a2df24ca82a" Name="Alcatel" Logo="MediaArchive:03e9766e-e149-4c79-a2d4-b944ade4f999" Url="" />
+  <Partner Id="7c07e79d-8ff1-4bad-afaf-11cd866df7c1" Name="Nortel" Logo="MediaArchive:3fcf1cd7-93a4-467a-ae54-7fa25a49f09d" Url="" />
+  <Partner Id="819ee22b-e7f9-4b1b-9a2f-0d0f789a81ea" Name="Promise" Logo="MediaArchive:eb3a3b86-eb25-43cb-b251-4fe0e549f64c" Url="" />
+  <Partner Id="84c76753-a3c1-413a-8c35-67e652dd83ba" Name="Microsoft" Logo="MediaArchive:af4d7b42-af96-473e-b89b-7c0f7f86af63" Url="" />
+  <Partner Id="8dadc437-2461-4572-ac8b-6762f87284f9" Name="Check point" Logo="MediaArchive:a40dfdc6-d0c1-4588-aae6-faffdf6d0c5c" Url="" />
+  <Partner Id="8f6e14f5-f2c3-4df2-8ff9-9948380100cc" Name="Tandberg" Logo="MediaArchive:c97bf134-9acb-46ed-9964-66468820510f" Url="" />
+  <Partner Id="b451d9f9-04da-4f19-a7e3-c9c15ee71028" Name="Fortinet" Logo="MediaArchive:57921e41-0382-4dcd-a7c8-d482b96dcd95" Url="" />
+  <Partner Id="b6084027-7d82-4def-bbc9-59fadbc5af02" Name="f5" Logo="MediaArchive:00da6c8f-a31a-4995-b1aa-caff5103fd82" Url="" />
+  <Partner Id="be01eb12-e581-4fce-8d47-29c488fcf255" Name="Symantec" Logo="MediaArchive:d87dfde6-20b6-42dc-82d9-3f7fb4426577" Url="" />
+  <Partner Id="bfe53323-003c-4a5e-9865-c730ec16d2ad" Name="A10" Logo="MediaArchive:5f9f388f-6d6c-4e63-95d4-48498444d0d9" Url="" />
+  <Partner Id="cb69451a-88eb-4691-9a52-bd7ba7cf0810" Name="riverbed" Logo="MediaArchive:544b06f6-553e-4dc1-8de3-cfe4c7dec51e" Url="" />
+  <Partner Id="ccd1b5ed-1889-433d-9584-4a2768e74ab1" Name="astaro" Logo="MediaArchive:2903a4cd-3b45-4dfa-b009-34cc7b11a360" Url="" />
+  <Partner Id="d5b62787-9858-4766-9b93-bc8c5d650b57" Name="HP" Logo="MediaArchive:5c9aca23-5e94-4136-ada3-08cd36e02c23" Url="" />
+  <Partner Id="e0dc77ba-2aa9-44b2-b0ba-2963524703b8" Name="RSA" Logo="MediaArchive:1de1dc5f-fbd7-401d-92d5-a56665b27128" Url="" />
+  <Partner Id="e3aff976-f929-4572-95fe-39799e47b509" Name="Kaspersky" Logo="MediaArchive:b2e28cd8-8289-424d-a58d-02f0809a03ed" Url="" />
+  <Partner Id="e9af8934-e053-4d50-97e2-b376ae752cd9" Name="AMP" Logo="MediaArchive:8676ac67-1cbe-45f3-9379-65d74df21a99" Url="" />
+  <Partner Id="f35c8ec8-2836-4c67-bc42-a4967b93f1bf" Name="IBM" Logo="MediaArchive:e5448e5c-0694-401b-9090-7b6a25a633ee" Url="" />
+  <Partner Id="f89ffedd-000c-480f-a726-d7f875758ac8" Name="Source Fire" Logo="MediaArchive:7e57be8a-04a5-4540-bef7-829ebdaa36dd" Url="" />
+</PartnerElements>

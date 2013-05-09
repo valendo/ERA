@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string key="MailingList.Layout" value="Add new mailing list (subject)" />
+	<string key="MailingList.FieldGroup" value="Newsletter subject" />
+	<string key="MailingList.Title.Label" value="Subject title" />
+	<string key="MailingList.Description.Label" value="Description" />
+
+	<string key="SubjectBased.MailingListElementActionProvider.DeleteMembersLabel" value="Delete members" />
+	<string key="SubjectBased.MailingListElementActionProvider.DeleteMembersToolTip" value="Delete members" />
+	<string key="SubjectBased.MailingListElementActionProvider.AddNewMailingListLabel" value="Add new mailing list (subject)" />
+	<string key="SubjectBased.MailingListElementActionProvider.AddNewMailingListToolTip" value="Add new mailing list (subject)" />
+	<string key="SubjectBased.MailingListElementActionProvider.EditMailingListLabel" value="Edit mailing list" />
+	<string key="SubjectBased.MailingListElementActionProvider.EditMailingListToolTip" value="Edit mailing list" />
+	<string key="SubjectBased.MailingListElementActionProvider.DeleteMailingListLabel" value="Delete mailing list" />
+	<string key="SubjectBased.MailingListElementActionProvider.DeleteMailingListToolTip" value="Delete mailing list" />
+
+	<string key="DeleteMailingList.LabelFieldGroup" value="Mailing list" />
+	<string key="DeleteMailingList.Text" value="Do you want to delete the mailing list?" />
+
+	<string key="SubjectBased.MailingListElementActionProvider.AddMembersLabel" value="Add members" />
+	<string key="SubjectBased.MailingListElementActionProvider.AddMembersToolTip" value="Add members" />
+	<string key="MailingList.NewMembers.Layout" value="Members" />
+	<string key="MailingList.NewMembers" value="New members" />
+	<string key="MailingList.NewMembersHelp" value="Type in or paste one or more lines with e-mail addresses and names of members to add. Separate the address and name with a comma. Start each entry from a new line." />
+
+	<string key="MailingList.Members.Layout" value="Layout" />
+	<string key="MailingList.DeleteMembers" value="Delete members" />
+	<string key="MailingList.Members" value="Members" />
+	<string key="MailingList.MembersHelp" value="Type in or paste one or more lines with email addresses of members to delete." />
+
+	<string key="SubjectBased.MailingListElementActionProvider.TranslateLabel" value="Translate" />
+	<string key="SubjectBased.MailingListElementActionProvider.TranslateToolTip" value="Translate" />
+
+	<string key="SubjectBased.AddNewMailingListWorkflow.MissingActiveLanguageTitle" value="Missing active language" />
+	<string key="SubjectBased.AddNewMailingListWorkflow.MissingActiveLanguageMessage" value="Missing active language" />
+
+	<string key="MailingList.Title.Help" value="Specify the title for this subject-based mailing group. This description will be visible in the Subscription form on a website." />
+	<string key="MailingList.Description.Help" value="Write a short description about this mailing group. This description will be visible in the Subscription form on a website." />
+
+	<string key="MailingList.ConfirmNewMembersHelp" value="These email addresses will be added to the mailing list. If an email address you have entered in the previous step does not appear here, it is already on the list." />
+	<string key="MailingList.ConfirmDeleteMembersHelp" value="These email addresses will be removed from the mailing list. If an email address you have entered in the previous step does not appear here, it is already not on the list." />
+
+	<string key="SubjectBased.AddMembersWorkflow.SeperateMembersError" value="seperate members with a linefeed - one line per e-mail address." />
+
+</strings>

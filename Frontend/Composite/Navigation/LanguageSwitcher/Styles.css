@@ -1,0 +1,12 @@
+div#LanguageSwitcher {
+	position:absolute;
+    right:0;
+    top:110px;
+}
+
+div#LanguageSwitcher a{
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+div#LanguageSwitcher a img {border:0px; float: left; margin: 5px;}

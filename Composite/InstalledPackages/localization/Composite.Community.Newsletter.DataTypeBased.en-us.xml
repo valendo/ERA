@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string key="DataTypeBased.MailingListElementActionProvider.AddNewMailingListLabel" value="Import list from Data Type" />
+	<string key="DataTypeBased.MailingListElementActionProvider.AddNewMailingListToolTip" value="Import list from Data Type" />
+	<string key="DataTypeBased.MailingListElementActionProvider.EditMailingListLabel" value="Edit mailing list" />
+	<string key="DataTypeBased.MailingListElementActionProvider.EditMailingListToolTip" value="Edit mailing list" />
+	<string key="DataTypeBased.MailingListElementActionProvider.DeleteMailingListLabel" value="Delete mailing list" />
+	<string key="DataTypeBased.MailingListElementActionProvider.DeleteMailingListToolTip" value="Delete mailing list" />
+	<string key="DeleteMailingList.LabelFieldGroup" value="Delete mailing list" />
+	<string key="DeleteMailingList.Text" value="Do you want to delete the mailing list?" />
+	<string key="MailingList.Layout" value="Import List from Data Type" />
+	<string key="MailingList.FieldGroup" value="Mailing list" />
+	<string key="MailingList.Title.Label" value="Title" />
+	<string key="MailingList.Description.Label" value="Description" />
+	<string key="DataTypeBased.TypeSelectorLabel" value="Data type" />
+	<string key="DataTypeBased.TypeSelectorHelp" value="Select the data type that contains members for the mailing list." />
+
+	<string key="MailingList.Title.Help" value="Specify the title for this subject-based mailing group. This description will be visible in the Subscription form on a website." />
+	
+	<string key="MailingList.Description.Help" value="Write a short description about this mailing group. This description will be visible in the Subscription form on a website." />
+
+	<string key="DataTypeBased.AddNewMailingListWorkflow.MissingActiveLanguageTitle" value="Missing active language" />
+	<string key="DataTypeBased.AddNewMailingListWorkflow.MissingActiveLanguageMessage" value="Missing active language" />
+
+	<string key="DataTypeBased.AddNewMailingListWorkflow.MissingSupportedTypesTitle" value="Import is impossible" />
+	<string key="DataTypeBased.AddNewMailingListWorkflow.MissingSupportedTypesMessage" value="Import is impossible because there are no datatypes with the Email field found" />
+
+</strings>

@@ -1,0 +1,21 @@
+<cms:formdefinition xmlns="http://www.composite.net/ns/management/bindingforms/std.ui.controls.lib/1.0" xmlns:f="http://www.composite.net/ns/management/bindingforms/std.function.lib/1.0" xmlns:cms="http://www.composite.net/ns/management/bindingforms/1.0">
+	<cms:bindings>
+		<cms:binding name="MailingList" type="Composite.Community.Newsletter.FunctionBased.Data.Types.IFunctionBasedList, Composite.Community.Newsletter.FunctionBased"/>
+	</cms:bindings>
+	<cms:layout iconhandle="usergroups-editusergroup">
+		<cms:layout.label>
+			<cms:read source="MailingList.Title"/>
+		</cms:layout.label>
+		<FieldGroup Label="${Composite.Community.Newsletter.FunctionBased, MailingList.FieldGroup}">
+			<TextBox Label="${Composite.Community.Newsletter.FunctionBased, MailingList.Title.Label}" Help="${Composite.Community.Newsletter.FunctionBased, MailingList.Title.Help}">
+				<cms:bind source="MailingList.Title" />
+			</TextBox>
+			<TextArea Label="${Composite.Community.Newsletter.FunctionBased, MailingList.Description.Label}" Help="${Composite.Community.Newsletter.FunctionBased, MailingList.Description.Help}">
+				<cms:bind source="MailingList.Description" />
+			</TextArea>
+			<TextBox Label="${Composite.Community.Newsletter.FunctionBased, MailingList.FunctionName.Label}" Help="${Composite.Community.Newsletter.FunctionBased,MailingList.FunctionName.Help}">
+				<cms:bind source="MailingList.FunctionName" />
+			</TextBox>
+		</FieldGroup>
+	</cms:layout>
+</cms:formdefinition>

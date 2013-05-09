@@ -1,0 +1,53 @@
+﻿20130504 05:16:20.0329 2 11 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 05:16:20:03 in process 2588
+20130504 08:08:59.4079 2 33 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 08:08:59:40 in process 8540
+20130504 08:53:05.6579 2 27 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 08:53:05:65 in process 9604
+20130504 09:12:23.2517 2  1 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 09:12:23:25 in process 6100
+20130504 09:41:11.2986 2 12 Warning EditRazorFunctionWorkflow  Failed to compile CSHTML file
+20130504 09:41:11.3611 2 12 Warning EditRazorFunctionWorkflow  System.Web.HttpCompileException (0x80004005): d:\hosting\eratech.vn\httpdocs\App_Data\Razor\My\Content\_temp_NewsList.cshtml(37): error CS1061: 'System.Collections.Generic.List<My.Content.News>' does not contain a definition for 'count' and no extension method 'count' accepting a first argument of type 'System.Collections.Generic.List<My.Content.News>' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Elements.ElementProviders.RazorFunctionProviderElementProvider.EditRazorFunctionWorkflow.CompileAndValidate(String file, String fileContent)
+
+20130504 09:41:29.7986 2 39 Warning EditRazorFunctionWorkflow  Failed to compile CSHTML file
+20130504 09:41:29.7986 2 39 Warning EditRazorFunctionWorkflow  System.Web.HttpCompileException (0x80004005): d:\hosting\eratech.vn\httpdocs\App_Data\Razor\My\Content\_temp_NewsList.cshtml(37): error CS1061: 'System.Collections.Generic.List<My.Content.News>' does not contain a definition for 'count' and no extension method 'count' accepting a first argument of type 'System.Collections.Generic.List<My.Content.News>' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Elements.ElementProviders.RazorFunctionProviderElementProvider.EditRazorFunctionWorkflow.CompileAndValidate(String file, String fileContent)
+
+20130504 09:59:15.8767 2 28 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 09:59:15:87 in process 9240
+20130504 10:42:48.8298 2 27 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 10:42:48:82 in process 5760
+20130504 10:42:54.6736 3 22 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 10:42:54:67 in process 5760
+20130504 10:43:20.8767 4  5 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 10:43:20:87 in process 5760
+20130504 11:00:06.3142 5  5 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 11:00:06:31 in process 5760
+20130504 11:00:10.3454 6 86 Warning ConsoleMessageServiceFacade  Console 'key3520193446893245' has a last known change numer of 17, but server current number is 1.
+20130504 11:00:10.4392 6  1 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 6 ended at 11:00:10:43 in process 5760
+20130504 11:00:39.6736 7 86 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 7 ended at 11:00:39:67 in process 5760
+20130504 11:22:44.5642 8  1 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 8 ended at 11:22:44:56 in process 5760
+20130504 11:55:27.2244 2 26 Warning UserValidation  Login as [admin] failed. Incorrect password.  IP address: 127.0.0.1
+20130504 11:57:26.8732 2 29 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 11:57:26:87 in process 7948
+20130504 12:11:14.2856 3 40 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 12:11:14:28 in process 7948
+20130504 12:16:28.8145 4 40 Warning ConsoleMessageServiceFacade  Console 'key1933878471609205' has a last known change numer of 10, but server current number is 1.
+20130504 12:16:29.6046 4 40 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 12:16:29:60 in process 7948
+20130504 13:10:15.1696 5 100 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 13:10:15:16 in process 7948
+20130504 16:03:16.3524 2 35 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 16:03:16:31 in process 7604
+20130504 16:30:33.9410 2 34 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 16:30:33:90 in process 9596

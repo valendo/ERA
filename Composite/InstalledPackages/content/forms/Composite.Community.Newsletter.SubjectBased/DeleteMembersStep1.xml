@@ -1,0 +1,12 @@
+<cms:formdefinition xmlns="http://www.composite.net/ns/management/bindingforms/std.ui.controls.lib/1.0" xmlns:f="http://www.composite.net/ns/management/bindingforms/std.function.lib/1.0" xmlns:cms="http://www.composite.net/ns/management/bindingforms/1.0">
+	<cms:bindings>
+		<cms:binding name="Members" type="System.String"/>
+	</cms:bindings>
+	<cms:layout iconhandle="usergroups-deleteusergroup" label="${Composite.Community.Newsletter.SubjectBased, MailingList.DeleteMembers}">
+		<FieldGroup Label="${Composite.Community.Newsletter.SubjectBased, MailingList.DeleteMembers}">
+			<TextArea Label="${Composite.Community.Newsletter.SubjectBased, MailingList.Members}" Help="${Composite.Community.Newsletter.SubjectBased, MailingList.MembersHelp}">
+				<cms:bind source="Members" />
+			</TextArea>
+		</FieldGroup>
+	</cms:layout>
+</cms:formdefinition>

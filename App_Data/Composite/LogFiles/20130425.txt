@@ -1,0 +1,43 @@
+﻿20130425 09:17:56.7896 2  6 Warning ConsoleMessageServiceFacade  Console 'key523829149780795' has a last known change numer of 165, but server current number is 1.
+20130425 10:01:37.9195 2 45 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 10:01:37:90 in process 11932
+20130425 10:01:51.8513 3 30 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 10:01:51:85 in process 11932
+20130425 14:56:36.8999 4  6 Error FunctionWrapper  System.InvalidOperationException: No conversion from System.Int32 to System.Decimal could be found
+   at Composite.Core.Types.ValueTypeConverter.TryConvert(Object value, Type targetType, Exception& conversionError)
+   at Composite.Functions.ParameterList.TryGetParameter(String parameterName, Object& value)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.RenderHelper.<>c__DisplayClass1.<BuildInputDocument>b__0(Int32 i)
+   at Composite.Core.Parallelization.ParallelFacade.For(String parallelizationPointName, Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.RenderHelper.BuildInputDocument(IEnumerable`1 FunctionCalls, ParameterList parameterList, Boolean addDetailedComments)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130425 14:57:00.9492 4 38 Error FunctionWrapper  System.InvalidOperationException: No conversion from System.Double to System.Decimal could be found
+   at Composite.Core.Types.ValueTypeConverter.TryConvert(Object value, Type targetType, Exception& conversionError)
+   at Composite.Functions.ParameterList.TryGetParameter(String parameterName, Object& value)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.RenderHelper.<>c__DisplayClass1.<BuildInputDocument>b__0(Int32 i)
+   at Composite.Core.Parallelization.ParallelFacade.For(String parallelizationPointName, Int32 fromInclusive, Int32 toExclusive, Action`1 body)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.RenderHelper.BuildInputDocument(IEnumerable`1 FunctionCalls, ParameterList parameterList, Boolean addDetailedComments)
+   at Composite.Plugins.Functions.FunctionProviders.XsltBasedFunctionProvider.XsltBasedFunctionProvider.XsltXmlFunction.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130425 14:57:41.5956 4 17 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 14:57:41:58 in process 11932
+20130425 14:58:48.6114 5 24 Warning ConsoleMessageServiceFacade  Console 'key523829149780795' are requesting messages that are more than 60 seconds old. Console has last known change number 252, server is now at 254. Debug XML dump saved at '~/App_Data/Composite/Cache/Temp'.
+20130425 15:00:17.7405 5 60 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 15:00:17:73 in process 11932
+20130425 15:49:01.1927 6 19 Information MimeTypeInfo  Uploading file 'to-chuc-cong-ty.jpg'. MIME type from extension: 'image/jpeg'
+20130425 17:06:03.7811 6 32 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 6 ended at 17:06:03:68 in process 11932
+20130425 19:42:19.9886 4 53 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 19:42:19:98 in process 11052
+20130425 19:53:04.0235 5 21 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 19:53:04:02 in process 11052
+20130425 21:02:12.4338 6 62 Error Composite.Forms.ContactForm  System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Must issue a STARTTLS command first. uy3sm7509952pbc.7 - gsmtp
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Composite.Forms.ContactForm.Functions.<Send>d__2.MoveNext()
+20130425 21:06:52.8299 6 47 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 6 ended at 21:06:52:82 in process 11052
+20130425 21:07:27.7157 7 14 Warning ConsoleMessageServiceFacade  Console 'key6981904595925122' has a last known change numer of 83, but server current number is 1.
+20130425 21:08:11.1184 7 19 Error Composite.Forms.ContactForm  System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Composite.Forms.ContactForm.Functions.<Send>d__2.MoveNext()
+20130425 21:17:15.0077 7 38 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 7 ended at 21:17:15:00 in process 11052
+20130425 21:17:27.4247 8 47 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 8 ended at 21:17:27:42 in process 11052
+20130425 21:17:59.0525 9 53 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 9 ended at 21:17:59:05 in process 11052
+20130425 21:23:42.0144 10 50 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 10 ended at 21:23:42:01 in process 11052
+20130425 21:54:24.5087 11 73 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 11 ended at 21:54:24:50 in process 11052

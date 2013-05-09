@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cms:formdefinition xmlns="http://www.composite.net/ns/management/bindingforms/std.ui.controls.lib/1.0" xmlns:f="http://www.composite.net/ns/management/bindingforms/std.function.lib/1.0" xmlns:cms="http://www.composite.net/ns/management/bindingforms/1.0">
+	<cms:bindings>
+		<cms:binding name="SendStart" type="System.Object" optional="true" />
+	</cms:bindings>
+	<cms:layout iconhandle="item-send-forward-for-publication" label="${Composite.Community.Newsletter, SendNewsletter.SendNewsletterDialog}">
+		<FieldGroup Label="${Composite.Community.Newsletter, SendNewsletter.SendNewsletterDialog}">
+			<DateTimeSelector Label="${Composite.Community.Newsletter, SendNewsletter.Date}" Help="${Composite.Community.Newsletter, SendNewsletter.DateHelp}">
+				<cms:bind source="SendStart" />
+			</DateTimeSelector>
+			<Heading></Heading>
+			<Heading></Heading>
+			<Heading></Heading>
+			<Heading></Heading>
+		</FieldGroup>
+	</cms:layout>
+</cms:formdefinition>
+
+

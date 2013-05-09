@@ -1,0 +1,285 @@
+﻿20130426 09:05:03.3752 2  5 Warning ConsoleMessageServiceFacade  Console 'key0010495301724250394' has a last known change numer of 387, but server current number is 1.
+20130426 09:15:17.2243 2 58 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 09:15:17:20 in process 6620
+20130426 09:15:26.2429 3 34 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 09:15:26:24 in process 6620
+20130426 09:15:51.6413 4 50 Error Composite.Forms.ContactForm  System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Composite.Forms.ContactForm.Functions.<Send>d__2.MoveNext()
+20130426 09:17:25.1977 4 34 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 09:17:25:19 in process 6620
+20130426 09:17:29.4929 5 50 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 09:17:29:49 in process 6620
+20130426 09:18:27.6462 7 58 Error Composite.Forms.ContactForm  System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Composite.Forms.ContactForm.Functions.<Send>d__2.MoveNext()
+20130426 09:22:05.5817 7 47 Error Composite.Forms.ContactForm  System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at Composite.Forms.ContactForm.Functions.<Send>d__2.MoveNext()
+20130426 09:23:05.6641 7 71 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 7 ended at 09:23:05:66 in process 6620
+20130426 09:42:57.4113 8 43 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 8 ended at 09:42:57:41 in process 6620
+20130426 09:45:34.9293 9  9 Information MimeTypeInfo  Uploading file 'img1.jpg'. MIME type from extension: 'image/jpeg'
+20130426 09:46:51.3027 9 50 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 9 ended at 09:46:51:30 in process 6620
+20130426 09:47:35.5772 10 59 Information MimeTypeInfo  Uploading file 'img2.jpg'. MIME type from extension: 'image/jpeg'
+20130426 09:47:56.2364 10 58 Information MimeTypeInfo  Uploading file 'img3.jpg'. MIME type from extension: 'image/jpeg'
+20130426 09:48:12.6573 10 50 Information MimeTypeInfo  Uploading file 'img4.jpg'. MIME type from extension: 'image/jpeg'
+20130426 10:32:13.5044 10 13 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 10 ended at 10:32:13:50 in process 6620
+20130426 10:35:12.7906 11 70 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 11 ended at 10:35:12:78 in process 6620
+20130426 10:44:34.6908 12 45 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 12 ended at 10:44:34:68 in process 6620
+20130426 10:46:08.0501 13 19 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 13 ended at 10:46:08:05 in process 6620
+20130426 11:07:41.5601 14 43 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 14 ended at 11:07:41:55 in process 6620
+20130426 11:32:31.2263 15 50 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 15 ended at 11:32:31:22 in process 6620
+20130426 11:33:55.9731 16 38 Error FileBasedFunctionProvider  Error instantiating NewsList function
+20130426 11:33:56.2372 16 38 Error FileBasedFunctionProvider  System.Web.HttpParseException (0x80004005): The code block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Functions.FunctionProviders.RazorFunctionProvider.RazorFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130426 11:33:59.1943 16 43 Error PageRenderer  System.InvalidOperationException: Failed to get value for function 'My.Content.NewsList' ---> System.Web.HttpParseException: The code block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.NotLoadedFileBasedFunction`1.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+   --- End of inner exception stack trace ---
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130426 11:33:59.1953 16 43 Error PageRenderer | INNER  System.Web.HttpParseException (0x80004005): The code block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.NotLoadedFileBasedFunction`1.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+20130426 11:36:18.5853 16 23 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 16 ended at 11:36:18:58 in process 6620
+20130426 11:38:50.7120 17 26 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 27
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 11:39:09.8531 17 50 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 27
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 11:52:54.7743 17 26 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 42
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 11:53:02.4337 17 54 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 42
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 14:06:58.4833 17 19 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 17 ended at 14:06:58:41 in process 6620
+20130426 14:08:41.3932 18 47 Warning ConsoleMessageServiceFacade  Console 'key8021988396225657' has a last known change numer of 184, but server current number is 1.
+20130426 14:08:48.0996 18 23 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 18 ended at 14:08:48:03 in process 6620
+20130426 15:20:30.4227 19 24 Error FunctionWrapper  System.Xml.XmlException: Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 79, position 36.
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 15:21:06.3478 19  7 Error FunctionWrapper  System.Xml.XmlException: Name cannot begin with the '<' character, hexadecimal value 0x3C. Line 79, position 36.
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 15:27:31.3308 19 38 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 19 ended at 15:27:31:29 in process 6620
+20130426 15:28:43.5199 20 14 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 20 ended at 15:28:43:51 in process 6620
+20130426 15:30:31.3141 21 53 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 21 ended at 15:30:31:31 in process 6620
+20130426 16:07:46.4719 22 26 Error FunctionWrapper  System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:08:07.3961 22 50 Error FunctionWrapper  System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:08:17.1747 22 72 Error FunctionWrapper  System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:11:12.4097 22 53 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:11:52.0560 22  7 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:12:50.4123 22  7 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:06.0272 22 14 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:08.6733 22 53 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:09.7254 22 24 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:10.4264 22 70 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:11.0575 22 74 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:15.3597 22 11 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:16.0938 22 50 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:16.6818 22  7 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:17.3128 22 77 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:18.1789 22 26 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:18.8409 22 38 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:13:37.6950 22 72 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:17:28.3492 22 78 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:19:37.4206 22 12 Error FunctionWrapper  System.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTime.Parse(String s)
+   at ASP._Page_App_Data_Razor_My_Content_NewsDetail_cshtml.Execute() in d:\CompositeC1\ERA\Website\App_Data\Razor\My\Content\NewsDetail.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130426 16:28:46.3100 22 25 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 22 ended at 16:28:46:27 in process 6620
+20130426 22:11:42.6945 2 37 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 22:11:42:69 in process 5076
+20130426 23:44:46.3176 2 38 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 23:44:46:31 in process 22460

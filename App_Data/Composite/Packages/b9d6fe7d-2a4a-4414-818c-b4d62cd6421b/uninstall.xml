@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.PackageLicenseFragmentUninstaller,Composite" />
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.ConfigurationTransformationPackageFragmentUninstaller,Composite">
+      <Uninstall xsltFilePath="~\Config\Uninstall.xsl" xmlns="" />
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\App_Data\Xslt\Composite\Community\Newsletter\SubjectBased\ConfirmLink.xsl" />
+        <File filename="~\App_Data\Xslt\Composite\Community\Newsletter\SubjectBased\SubscribeForm.xsl" />
+        <File filename="~\App_Data\Xslt\Composite\Community\Newsletter\UnsubscribeForm.xsl" />
+        <File filename="~\App_Data\Xslt\Composite\Community\Newsletter\UnsubscribeLink.xsl" />
+        <File filename="~\Composite\InstalledPackages\localization\Composite.Community.Newsletter.SubjectBased.en-us.xml" />
+        <File filename="~\Composite\InstalledPackages\localization\Composite.Community.Newsletter.en-us.xml" />
+        <File filename="~\Composite\InstalledPackages\localization\Composite.Community.Newsletter.DataTypeBased.en-us.xml" />
+        <File filename="~\Composite\InstalledPackages\localization\Composite.Community.Newsletter.FunctionBased.en-us.xml" />
+        <File filename="~\Newsletter.ashx" />
+        <File filename="~\App_Data\Composite\TreeDefinitions\Composite.Community.Newsletter.SubjectBased.xml" />
+        <File filename="~\App_GlobalResources\Composite\Community\Newsletter.resx" />
+        <File filename="~\App_Data\Composite\DynamicTypeForms\Composite\Community\Newsletter\ConfirmEmailTemplate.xml" />
+        <File filename="~\Bin\Composite.Community.Newsletter.dll" />
+        <File filename="~\Bin\Composite.Community.Newsletter.DataTypeBased.dll" />
+        <File filename="~\Bin\Composite.Community.Newsletter.FunctionBased.dll" />
+        <File filename="~\Bin\Composite.Community.Newsletter.SubjectBased.dll" />
+        <File filename="~\Composite\InstalledPackages\content\views\Composite.Community.Newsletter\exportmembers.ashx" />
+        <File filename="~\Composite\InstalledPackages\content\views\Composite.Community.Newsletter\statistics.aspx" />
+        <File filename="~\Composite\InstalledPackages\content\views\Composite.Community.Newsletter\statistics.aspx.cs" />
+        <File filename="~\Composite\InstalledPackages\content\views\Composite.Community.Newsletter\statistics.css" />
+        <File filename="~\Composite\InstalledPackages\content\views\Composite.Community.Newsletter\ViewNeverMails.aspx" />
+        <File filename="~\Composite\InstalledPackages\content\views\Composite.Community.Newsletter\ViewNeverMails.aspx.cs" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\AddNeverMailListStep1.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\AddNeverMailListStep2.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\AddNewNewsletter.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\AddNewNewsletterSelectType.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\AddNewNewsletterType.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\DeleteNeverMailListStep1.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\DeleteNeverMailListStep2.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\DeleteNewsletter.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\DeleteNewsletterType.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\EditNewsletter.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\EditNewsletterType.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\SendingNewsletterStep1.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\SendingNewsletterStep2.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter\SendingTestStep1.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.DataTypeBased\AddNewMailList.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.DataTypeBased\DeleteMailingList.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.DataTypeBased\EditMailingList.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.FunctionBased\AddNewMailList.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.FunctionBased\DeleteMailingList.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.FunctionBased\EditMailingList.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.SubjectBased\AddNewMailList.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.SubjectBased\AddNewMembersStep1.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.SubjectBased\AddNewMembersStep2.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.SubjectBased\DeleteMailingList.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.SubjectBased\DeleteMembersStep1.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.SubjectBased\DeleteMembersStep2.xml" />
+        <File filename="~\Composite\InstalledPackages\content\forms\Composite.Community.Newsletter.SubjectBased\EditMailingList.xml" />
+        <File filename="~\Frontend\Composite\Community\Newsletter\Styles.css" />
+      </Files>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataTypePackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type typeId="52edb752-6fe5-481a-b9b3-77e147e1c094" />
+        <Type typeId="9b77deb6-a784-400d-ad46-d27cb5492d5c" />
+        <Type typeId="32cbe50e-472e-4977-8332-0170118a79d9" />
+        <Type typeId="f392095f-c577-4e68-9258-64bc7769b570" />
+        <Type typeId="9d54a878-2219-4c62-b4f1-5bbbeaac945f" />
+        <Type typeId="6a2083da-681f-412c-8d8b-c87634c8ac03" />
+        <Type typeId="12c2937a-e483-4a27-9d5e-58711dbcd203" />
+        <Type typeId="933385ff-fd90-49e8-b184-f05d74163ff5" />
+        <Type typeId="1e4a420a-e4e4-4219-9c33-0dc5f17f7241" />
+        <Type typeId="08c98b6c-7da2-401d-8d55-44bb597ec89e" />
+        <Type typeId="96eac990-a76e-4181-8ad7-b6c9240c62ee" />
+        <Type typeId="863f96f5-296d-4ec3-87aa-cf8e4793c0fc" />
+        <Type typeId="97eb7812-9e7c-460e-a18e-518a626e0438" />
+        <Type typeId="aaab7812-9e7c-460e-a18e-518a626e0438" />
+      </Types>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DynamicDataTypePackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type typeId="ceeb1576-3468-4bd2-b50d-a04783ba9410" />
+      </Types>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataPackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type type="Composite.Data.Types.IMethodBasedFunctionInfo,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="97a2ad9d-ed0b-4fd9-b9a2-0f4724bcc805" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="cfdba490-4f7c-4060-8af8-3150cfdea918" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a281f9b7-9bef-4cf0-95ff-d1a734c891f4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="3562844a-f8e0-4f2c-9a8d-0cc59cedf268" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b9b9360e-5c01-4e0d-b888-6aa19b65c4a7" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c414ff8b-77ba-494e-acb1-37df953db8ea" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b56142ef-148b-4a23-804d-479d14cf6703" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7805a5a0-a287-4b07-be43-ec5f9f78a1fe" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.INamedFunctionCall,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="XsltFunctionId" value="0ed5df59-46c7-4548-929b-2016bd3f88d2" />
+              <Key name="Name" value="GetPageId" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="0ed5df59-46c7-4548-929b-2016bd3f88d2" />
+              <Key name="Name" value="MailingLists" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="0ed5df59-46c7-4548-929b-2016bd3f88d2" />
+              <Key name="Name" value="SubscribeEmail" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="0ed5df59-46c7-4548-929b-2016bd3f88d2" />
+              <Key name="Name" value="SubscribeName" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="0ed5df59-46c7-4548-929b-2016bd3f88d2" />
+              <Key name="Name" value="XsltExtensions" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="eff1dd1e-b904-413d-b45b-448726b96073" />
+              <Key name="Name" value="ConfirmEmail" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="eff1dd1e-b904-413d-b45b-448726b96073" />
+              <Key name="Name" value="GetMailingListDefinitionsXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="eff1dd1e-b904-413d-b45b-448726b96073" />
+              <Key name="Name" value="MailingLists" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="eff1dd1e-b904-413d-b45b-448726b96073" />
+              <Key name="Name" value="SubscribeButton" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="eff1dd1e-b904-413d-b45b-448726b96073" />
+              <Key name="Name" value="SubscribeEmail" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="eff1dd1e-b904-413d-b45b-448726b96073" />
+              <Key name="Name" value="SubscribeName" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="e7c0478f-5215-45ac-89a6-5b06598e7b20" />
+              <Key name="Name" value="GetMailingListDefinitionsXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="e7c0478f-5215-45ac-89a6-5b06598e7b20" />
+              <Key name="Name" value="MailingListId" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="e7c0478f-5215-45ac-89a6-5b06598e7b20" />
+              <Key name="Name" value="UnsubscribeButton" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="e7c0478f-5215-45ac-89a6-5b06598e7b20" />
+              <Key name="Name" value="UnsubscribeEmail" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IParameter,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="ParameterId" value="ff9d9fe0-dd8a-4716-bef5-d1ccc7594c2a" />
+              <Key name="OwnerId" value="0ed5df59-46c7-4548-929b-2016bd3f88d2" />
+            </Keys>
+            <Keys>
+              <Key name="ParameterId" value="ac1c045d-b489-4c3d-a5f6-3b21d8f01bb9" />
+              <Key name="OwnerId" value="eff1dd1e-b904-413d-b45b-448726b96073" />
+            </Keys>
+            <Keys>
+              <Key name="ParameterId" value="544cc32d-5630-4cf1-844d-f8d07ba920cc" />
+              <Key name="OwnerId" value="2de8a947-1ed0-49d8-8791-5c7448066cd0" />
+            </Keys>
+            <Keys>
+              <Key name="ParameterId" value="a98245b4-a716-4a29-9f73-0170ef58ab30" />
+              <Key name="OwnerId" value="2de8a947-1ed0-49d8-8791-5c7448066cd0" />
+            </Keys>
+            <Keys>
+              <Key name="ParameterId" value="cedc1730-1c95-4a79-9271-57eecf85c340" />
+              <Key name="OwnerId" value="2de8a947-1ed0-49d8-8791-5c7448066cd0" />
+            </Keys>
+            <Keys>
+              <Key name="ParameterId" value="4f239026-756d-4049-b28a-f4bb289c3f6b" />
+              <Key name="OwnerId" value="2de8a947-1ed0-49d8-8791-5c7448066cd0" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IXsltFunction,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="0ed5df59-46c7-4548-929b-2016bd3f88d2" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="eff1dd1e-b904-413d-b45b-448726b96073" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e7c0478f-5215-45ac-89a6-5b06598e7b20" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="2de8a947-1ed0-49d8-8791-5c7448066cd0" />
+            </Keys>
+          </Datas>
+        </Type>
+      </Types>
+    </Add>
+    <Add uninstallerType="Composite.Community.Newsletter.NewsletterPackageFragmentUinstaller,Composite.Community.Newsletter.SubjectBased" />
+  </PackageFragmentUninstallers>
+</PackageInstaller>

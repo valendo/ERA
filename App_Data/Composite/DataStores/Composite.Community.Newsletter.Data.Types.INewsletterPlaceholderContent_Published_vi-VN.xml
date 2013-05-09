@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NewsletterPlaceholderContentElementsElements>
+  <NewsletterPlaceholderContentElements CultureName="vi-VN" SourceCultureName="vi-VN" NewsletterId="4841bfe2-9209-4b34-a078-214efec1c6f5" PlaceHolderId="content" Content="&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#xA;&#x9;&lt;head&gt;&lt;/head&gt;&#xA;&#x9;&lt;body&gt;&#xA;&#xA;&lt;p&gt;this is just test email&lt;/p&gt;&#xA;&#xA;&lt;p&gt;haha&lt;/p&gt;&#xA;&#xA;&lt;p&gt;hee&lt;/p&gt;&#xA;&#xA;&#x9;&lt;/body&gt;&#xA;&lt;/html&gt;" />
+  <NewsletterPlaceholderContentElements CultureName="vi-VN" SourceCultureName="vi-VN" NewsletterId="4841bfe2-9209-4b34-a078-214efec1c6f5" PlaceHolderId="rightcolumnplaceholder" Content="&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#xA;&#x9;&lt;head&gt;&lt;/head&gt;&#xA;&#x9;&lt;body&gt;&#xA;&#xA;&lt;p&gt;123&lt;/p&gt;&#xA;&#xA;&lt;p&gt;456&lt;/p&gt;&#xA;&#xA;&#x9;&lt;/body&gt;&#xA;&lt;/html&gt;" />
+</NewsletterPlaceholderContentElementsElements>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElementStructure xmlns="http://www.composite.net/ns/management/trees/treemarkup/1.0" xmlns:f="http://www.composite.net/ns/function/1.0">
+	<ElementStructure.AutoAttachments>
+		<NamedParent Name="Layout" Position="Bottom" />
+	</ElementStructure.AutoAttachments>
+	<ElementRoot>
+		<Children>
+			<Element Label="Newsletter Confirm Templates" Id="Newsletter Confirm Templates">
+				<Actions>
+					<AddDataAction Type="Composite.Community.Newsletter.ConfirmEmailTemplate" Icon="page-template-add" />
+				</Actions>
+				<Children>
+					<DataElements Type="Composite.Community.Newsletter.ConfirmEmailTemplate" Icon="template">
+						<Actions>
+							<EditDataAction Icon="page-template-edit" />
+							<DeleteDataAction Icon="page-template-delete" />
+						</Actions>
+						<OrderBy>
+							<Field FieldName="Name"/>
+						</OrderBy>
+					</DataElements>
+				</Children>
+			</Element>
+		</Children>
+	</ElementRoot>
+</ElementStructure>

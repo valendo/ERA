@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContactFormDataElements>
+  <ContactFormData Name="vo thanh tai" Email="vothanhtai86@gmail.com" Company="" Website="" Address="" PhoneNumber="" Subject="" Message="this is just test mail" Date="2013-04-26T09:18:26.0601854+07:00" IP="127.0.0.1" Id="25cf90f2-b706-4fb9-9176-f0447467a14a" PageId="ba207392-2867-406e-b4f7-364a8f5f3dc8" />
+  <ContactFormData Name="tai vo thanh" Email="thanhtai_info@yahoo.com" Company="" Website="" Address="" PhoneNumber="" Subject="" Message="test contact form" Date="2013-04-26T09:22:04.1086571+07:00" IP="127.0.0.1" Id="7565c90d-bc44-4780-9ac2-ad0c07039c38" PageId="ba207392-2867-406e-b4f7-364a8f5f3dc8" />
+  <ContactFormData Name="vo thanh tai" Email="vothanhtai86@gmail.com" Company="" Website="" Address="" PhoneNumber="" Subject="" Message="this is just test form" Date="2013-04-25T21:02:10.8460409+07:00" IP="127.0.0.1" Id="b2199969-1f22-42db-a9ed-8551675cd17b" PageId="ba207392-2867-406e-b4f7-364a8f5f3dc8" />
+  <ContactFormData Name="tai vo" Email="vothanhtai86@gmail.com" Company="" Website="" Address="" PhoneNumber="" Subject="" Message="test mail contact form" Date="2013-04-25T21:08:07.5835997+07:00" IP="127.0.0.1" Id="b21ca32f-cfd3-4f19-abfd-59d146f1af2a" PageId="ba207392-2867-406e-b4f7-364a8f5f3dc8" />
+  <ContactFormData Name="tai vo" Email="vothanhtai86@gmail.com" Company="" Website="" Address="" PhoneNumber="" Subject="" Message="test email" Date="2013-04-26T09:15:48.9511993+07:00" IP="127.0.0.1" Id="db1e4558-40a1-4167-ae5c-45e724e0a65f" PageId="ba207392-2867-406e-b4f7-364a8f5f3dc8" />
+</ContactFormDataElements>

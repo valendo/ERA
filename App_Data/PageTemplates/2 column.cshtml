@@ -1,0 +1,39 @@
+﻿@inherits RazorPageTemplate
+
+@functions {
+    public override void Configure()
+    {
+        TemplateId = new Guid("da5b4c7f-5325-49d5-8235-affa0940e4c0"); 
+        TemplateTitle = "2 column";
+        Layout = "MasterLayout.cshtml";
+    }
+
+    [Placeholder(Id = "content", IsDefault = true)]
+    public XhtmlDocument Content { get; set; }
+	
+	
+	[Placeholder(Id = "left")]
+    public XhtmlDocument Left { get; set; }
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        @*you can add template specific head elements here*@
+    </head>
+    <body>
+		
+		<div class="wrapper">
+			<section class="leftpane">
+				@Markup(Left)
+			</section>
+			<section class="contentpane">
+				@Markup(Content)
+                <div class="add_this">
+					<f:function name="Composite.Community.AddThis" xmlns:f="http://www.composite.net/ns/function/1.0">
+						<f:param name="Style" value="Informative" />
+					</f:function>
+				</div>
+			</section>
+			<div style="clear:both;"></div>
+		</div>
+    </body>
+</html>

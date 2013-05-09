@@ -1,0 +1,47 @@
+<cms:formdefinition xmlns:cms="http://www.composite.net/ns/management/bindingforms/1.0" xmlns="http://www.composite.net/ns/management/bindingforms/std.ui.controls.lib/1.0" xmlns:f="http://www.composite.net/ns/management/bindingforms/std.function.lib/1.0">
+	<cms:bindings>
+		<cms:binding name="Id" type="System.Guid" optional="true" />
+		<cms:binding name="Name" type="System.String" optional="true" />
+		<cms:binding name="Subject" type="System.String" optional="true" />
+		<cms:binding name="Template" type="System.String" optional="true" />
+		<cms:binding name="FromName" type="System.String" optional="true" />
+		<cms:binding name="FromEmail" type="System.String" optional="true" />
+	</cms:bindings>
+	<cms:layout>
+		<cms:layout.label>
+			<cms:read source="Name" />
+		</cms:layout.label>
+		<TabPanels PreSelectedIndex="0">
+			<PlaceHolder Label="Template Info">
+				<FieldGroup>
+					<TextBox Label="${Composite.Community.Newsletter, ConfirmEmailTemplate.Name}" Help="${Composite.Community.Newsletter, ConfirmEmailTemplate.NameHelp}">
+						<TextBox.Text>
+							<cms:bind source="Name" />
+						</TextBox.Text>
+					</TextBox>
+					<TextBox Label="${Composite.Community.Newsletter, ConfirmEmailTemplate.Subject}" Help="${Composite.Community.Newsletter, ConfirmEmailTemplate.SubjectHelp}">
+						<TextBox.Text>
+							<cms:bind source="Subject" />
+						</TextBox.Text>
+					</TextBox>
+					<TextBox Label="${Composite.Community.Newsletter, ConfirmEmailTemplate.FromName}" Help="${Composite.Community.Newsletter, ConfirmEmailTemplate.FromNameHelp}">
+						<TextBox.Text>
+							<cms:bind source="FromName" />
+						</TextBox.Text>
+					</TextBox>
+					<TextBox Label="${Composite.Community.Newsletter, ConfirmEmailTemplate.FromEmail}" Help="${Composite.Community.Newsletter, ConfirmEmailTemplate.FromEmailHelp}">
+						<TextBox.Text>
+							<cms:bind source="FromEmail" />
+						</TextBox.Text>
+					</TextBox>
+				</FieldGroup>
+			</PlaceHolder>
+			<XhtmlEditor Label="Content">
+				<XhtmlEditor.EmbedableFieldsTypes>
+					<f:CompositeFunctionCall Name="Composite.Community.Newsletter.SubjectBased.GetMemberObjectTypes" />
+				</XhtmlEditor.EmbedableFieldsTypes>
+				<cms:bind source="Template" />
+			</XhtmlEditor>
+		</TabPanels>
+	</cms:layout>
+</cms:formdefinition>

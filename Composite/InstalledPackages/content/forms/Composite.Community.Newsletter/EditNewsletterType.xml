@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cms:formdefinition xmlns="http://www.composite.net/ns/management/bindingforms/std.ui.controls.lib/1.0" xmlns:f="http://www.composite.net/ns/management/bindingforms/std.function.lib/1.0" xmlns:cms="http://www.composite.net/ns/management/bindingforms/1.0">
+	<cms:bindings>
+		<cms:binding name="NewsletterType" type="Composite.Community.Newsletter.Data.Types.INewsletterType" />
+		<cms:binding name="NewsletterTypeMarkup" type="System.String" />
+	</cms:bindings>
+	<cms:layout>
+		<TabPanels PreSelectedIndex="1">
+			<FieldGroup Label="${Composite.Community.Newsletter, NewsletterType.LabelFieldGroup}">
+				<TextBox Label="${Composite.Community.Newsletter, NewsletterType.Title}" Help="${Composite.Community.Newsletter, NewsletterType.TitleHelp}">
+					<TextBox.Text>
+						<cms:bind source="NewsletterType.Title" />
+					</TextBox.Text>
+				</TextBox>
+				<TextArea Label="${Composite.Community.Newsletter, NewsletterType.Description}" Help="${Composite.Community.Newsletter, NewsletterType.DescriptionHelp}">
+					<TextArea.Text>
+						<cms:bind source="NewsletterType.Description" />
+					</TextArea.Text>
+				</TextArea>
+				<TextBox Label="${Composite.Community.Newsletter, NewsletterType.DefaultFromName}" Help="${Composite.Community.Newsletter, NewsletterType.DefaultFromNameHelp}">
+					<TextBox.Text>
+						<cms:bind source="NewsletterType.DefaultFromName" />
+					</TextBox.Text>
+				</TextBox>
+				<TextBox Label="${Composite.Community.Newsletter, NewsletterType.DefaultFromEmail}" Help="${Composite.Community.Newsletter, NewsletterType.DefaultFromEmailHelp}">
+					<TextBox.Text>
+						<cms:bind source="NewsletterType.DefaultFromEmail" />
+					</TextBox.Text>
+				</TextBox>
+				<TextBox Label="${Composite.Community.Newsletter, NewsletterType.DefaultReplyToEmail}" Help="${Composite.Community.Newsletter, NewsletterType.DefaultReplyToEmailHelp}">
+					<TextBox.Text>
+						<cms:bind source="NewsletterType.DefaultReplyToEmail" />
+					</TextBox.Text>
+				</TextBox>
+				<TextBox Label="${Composite.Community.Newsletter, NewsletterType.DefaultSubject}" Help="${Composite.Community.Newsletter, NewsletterType.DefaultSubjectHelp}">
+					<TextBox.Text>
+						<cms:bind source="NewsletterType.DefaultSubject" />
+					</TextBox.Text>
+				</TextBox>
+				<DataReferenceTreeSelector Label="${Composite.Community.Newsletter, NewsletterType.UnsubscribePage}" Help="${Composite.Community.Newsletter, NewsletterType.UnsubscribePageHelp}"  Handle="Composite.Management.PageIdSelectorDialog" DataType="Composite.Data.Types.IPage,Composite" NullValueAllowed="false">
+					<DataReferenceTreeSelector.Selected>
+						<cms:bind source="NewsletterType.UnsubscribePage" />
+					</DataReferenceTreeSelector.Selected>
+				</DataReferenceTreeSelector>
+			</FieldGroup>
+			<TabPanels.Label>
+				<cms:read source="NewsletterType.Title" />
+			</TabPanels.Label>
+			<MarkupEditor Label="${Composite.Community.Newsletter, NewsletterType.Layout}">
+				<cms:bind source="NewsletterTypeMarkup" />
+			</MarkupEditor>
+		</TabPanels>
+	</cms:layout>
+</cms:formdefinition>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NewsletterTypeElementsElements>
+  <NewsletterTypeElements CultureName="vi-VN" SourceCultureName="vi-VN" Id="a6baabb5-161e-4c5d-ac04-c70188db958a" UnsubscribePage="00000000-0000-0000-0000-000000000000" Title="Default template" Description="" DefaultFromName="ERA Tech LTD" DefaultFromEmail="business@eratech.vn" DefaultReplyToEmail="business@eratech.vn" DefaultSubject="ERA Tech Newsletter" NewsletterTypeFilePath="/Test newsletter_vi-VN.xml" />
+</NewsletterTypeElementsElements>
