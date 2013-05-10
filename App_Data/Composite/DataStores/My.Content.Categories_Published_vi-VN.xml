@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CategoriesElements>
+  <Categories Id="54f007a2-2bff-4c19-8e08-e8ede5e54d6f" Title="Sản phẩm" CultureName="vi-VN" SourceCultureName="vi-VN" Order="1" />
+  <Categories Id="cb5eb10e-7637-4a2b-b99c-b8855af6de4f" Title="Dịch vụ" CultureName="vi-VN" SourceCultureName="vi-VN" Order="2" />
+  <Categories Id="f9b4644e-8ebd-40cd-93f0-9bf84ee6f870" Title="Giải pháp" CultureName="vi-VN" SourceCultureName="vi-VN" Order="3" />
+</CategoriesElements>

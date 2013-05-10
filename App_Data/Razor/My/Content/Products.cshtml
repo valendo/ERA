@@ -1,0 +1,70 @@
+﻿@inherits RazorFunction
+
+@functions {
+    public override string FunctionDescription
+    {
+        get  { return "Show product list"; }
+    }
+
+    [FunctionParameter(Label = "Category")]
+    public DataReference<My.Content.Categories> Category { get; set; }
+    
+    [FunctionParameter(Label = "Product Detail Page")]
+    public DataReference<IPage> ProductDetailPage { get; set; }
+
+    public static string convertToUnSign(string s)
+    {
+        System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex("\\p{IsCombiningDiacriticalMarks}+");
+        string temp = s.Normalize(System.Text.NormalizationForm.FormD);
+        return regex.Replace(temp, String.Empty).Replace('\u0111', 'd').Replace('\u0110', 'D');
+    }  
+    
+    public static string GetUrlFromTitle(string title)
+    {
+        const string autoRemoveChars = @",./\?#!""@+'`´*():;$%&=¦§";
+        var generated = new System.Text.StringBuilder();
+
+        foreach (var c in title.Where(c => autoRemoveChars.IndexOf(c) == -1))
+        {
+            generated.Append(c);
+        }
+
+        var url = generated.ToString().Replace(" ", "-");
+
+        return convertToUnSign(url.ToLower());
+    }
+}
+
+@{
+    var products = Data.Get<My.Content.Product>().Where(t => t.Category == Category.Data.Id).ToList();
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    </head>
+    <body>
+        <div class="product_list">
+            @foreach (var item in products)
+            {
+                int index = products.IndexOf(item) + 1;
+                string classDivider = "";
+                string url = Html.C1().PageUrl(ProductDetailPage.Data).ToString() + "/" + GetUrlFromTitle(Category.Data.Title).ToString() + "/" + GetUrlFromTitle(item.Title);
+                if (index % 2 == 0)
+                {
+                    classDivider = "prod_divider";
+                }
+                <div class="product_box @classDivider">
+                    <h3><span class="dropcap">@index</span>@item.Title</h3>
+                    <div class="prod_img"><a href="@url"><img src="@Html.C1().MediaUrl(item.Image)" /></a></div><br />
+                    <p>@item.Summary</p>
+                    <a href="@url">@Resources.Localization.ReadMore</a>
+                </div>
+                if (index % 2 == 0)
+                {
+                    <div class="saperator"></div>
+                }
+            }
+            <div style="clear:both;"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+@inherits RazorFunction
+
+@functions {
+    public override string FunctionDescription
+    {
+        get  { return "A demo function that outputs a hello message."; }
+    }
+     
+    [FunctionParameter(DefaultValue = "Content")]
+    public DataReference<My.Content.Popup> Popup { get; set; }
+}
+@{
+    var content = Data.Get<My.Content.Popup>().Where(t => t.Id == Popup.Data.Id).SingleOrDefault().Content;
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" href="/frontend/styles/reveal.css" type="text/css" media="all"/>
+        <script type="text/javascript" src="/frontend/scripts/jquery.reveal.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#myModal').reveal($(this).data());
+            });
+        </script>
+    </head>
+    <body>
+        @*<a href="#" class="big-link" data-reveal-id="myModal">
+			Fade and Pop
+		</a>*@
+        <div id="myModal" class="reveal-modal" style="z-index:99999;text-align:center;">
+			<p>@Html.Raw(content)</p>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+    </body>
+</html>

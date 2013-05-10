@@ -86,5 +86,10 @@
       <AssemblyName>Composite.Community.Newsletter.SubjectBased</AssemblyName>
       <LastModified>2013-05-09T11:01:14.173295+07:00</LastModified>
     </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite.Media.ImageCrop</AssemblyName>
+      <LastModified>2013-05-10T11:50:24.153378+07:00</LastModified>
+    </AssemblyInfo>
   </Assemblies>
 </SubscribedTypesCache>

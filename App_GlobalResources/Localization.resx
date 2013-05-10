@@ -138,8 +138,14 @@
   <data name="Newsletter" xml:space="preserve">
     <value>Newsletter</value>
   </data>
+  <data name="NewsUpdateStatus" xml:space="preserve">
+    <value>News was updated later.</value>
+  </data>
   <data name="Phone" xml:space="preserve">
     <value>Phone</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Read more</value>
   </data>
   <data name="Subscribe" xml:space="preserve">
     <value>Subscribe</value>

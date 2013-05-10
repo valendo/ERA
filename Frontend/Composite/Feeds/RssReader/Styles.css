@@ -1,0 +1,31 @@
+.RSSReader {
+	display: block;
+	margin-bottom: 1em;
+}
+
+.ArticleEntry {
+	padding: 0px;
+	margin-bottom: 1em;
+	display: block;
+}
+
+.ArticleTitle {
+	font-weight: bold;
+}
+    .ArticleTitle a
+    {
+        color:#000;
+    }
+
+.ArticleDate {
+    font-style:italic;
+}
+
+.ArticleDescription {
+	padding: 0px;
+	margin: 0px;
+}
+
+.RSSReader .ArticleDescription p {
+	margin: 12px.12px 0;
+}

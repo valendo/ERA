@@ -150,3 +150,33 @@ footer a:hover{}
 {
     padding-top:20px;
 }
+.product_box
+{
+    float: left;
+    width:300px;
+    margin:50px 0;
+}
+.prod_img
+{
+    clear:both;
+    text-align:center;
+}
+.prod_img img
+{
+    max-width:200px;
+}
+.prod_divider
+{
+    margin-left:70px;
+}
+.saperator
+{
+    width: 100%;
+    border-top: 1px dotted gray;
+    clear:both;
+}
+.update_status
+{
+    font-style:italic;
+    font-size:14px;
+}

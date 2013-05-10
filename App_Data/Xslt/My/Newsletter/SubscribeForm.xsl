@@ -119,7 +119,7 @@ xmlns:csharp="http://c1.composite.net/csharp">
 			</xsl:for-each>
 		</div>
 		<xsl:variable name="subscribeButtonLabel">
-			<xsl:text><lang:string key="Resource, Resources.Newsletter.Subscribe" /></xsl:text>
+			<xsl:text><lang:string key="Resource, Resources.Localization.Subscribe" /></xsl:text>
 		</xsl:variable>
 		<input name="SubscribeButton" type="submit" class="Submit" value="{$subscribeButtonLabel}" />
 	</xsl:template>

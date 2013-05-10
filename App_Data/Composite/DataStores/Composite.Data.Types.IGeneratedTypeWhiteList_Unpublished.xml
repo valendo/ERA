@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GeneratedTypeWhiteListElementsElements>
+  <GeneratedTypeWhiteListElements TypeManagerTypeName="My.Content.Categories" />
   <GeneratedTypeWhiteListElements TypeManagerTypeName="My.Content.News" />
   <GeneratedTypeWhiteListElements TypeManagerTypeName="My.Content.Partner" />
+  <GeneratedTypeWhiteListElements TypeManagerTypeName="My.Content.Popup" />
+  <GeneratedTypeWhiteListElements TypeManagerTypeName="My.Content.Product" />
   <GeneratedTypeWhiteListElements TypeManagerTypeName="My.Navigation.FooterLink" />
 </GeneratedTypeWhiteListElementsElements>

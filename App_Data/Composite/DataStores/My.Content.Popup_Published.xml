@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PopupElements>
+  <Popup Id="d1213f5f-c610-4b34-b260-e37cc317fbbd" Title="New product 05/2013" Content="&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#xA;&#x9;&lt;head&gt;&lt;/head&gt;&#xA;&#x9;&lt;body&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&quot;%7E/en/show-case/detail/products/video-conference-voip&quot;&gt;&lt;img src=&quot;/media%28a6b81020-ee35-42a5-9faa-ebbcc400d86d%29&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;New product was released: Video Conference, VoiP&lt;/p&gt;&#xA;&#xA;&#x9;&lt;/body&gt;&#xA;&lt;/html&gt;" />
+  <Popup Id="f443ed34-528a-4014-98d8-d71ab2677f8d" Content="&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#xA;&#x9;&lt;head&gt;&lt;/head&gt;&#xA;&#x9;&lt;body&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&quot;/danh-muc/chi-tiet/san-pham/video-conference-voip&quot;&gt;&lt;img src=&quot;/media%28a6b81020-ee35-42a5-9faa-ebbcc400d86d%29&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Sản phẩm mới: Video Conference, VoiP&lt;/p&gt;&#xA;&#xA;&#x9;&lt;/body&gt;&#xA;&lt;/html&gt;" Title="Sản phẩm mới 05/2013" />
+</PopupElements>

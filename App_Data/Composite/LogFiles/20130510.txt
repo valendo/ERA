@@ -1,0 +1,170 @@
+﻿20130510 08:49:03.3980 2 20 Warning ConsoleMessageServiceFacade  Console 'key350067908965787' has a last known change numer of 429, but server current number is 1.
+20130510 09:13:07.9966 2 48 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 09:13:07:99 in process 15664
+20130510 09:14:30.7523 3 49 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 09:14:30:75 in process 15664
+20130510 09:21:35.2776 4 26 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 09:21:35:27 in process 15664
+20130510 09:21:52.9856 5 57 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 09:21:52:98 in process 15664
+20130510 09:22:10.3466 6 46 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 6 ended at 09:22:10:34 in process 15664
+20130510 09:23:10.2021 7  9 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 7 ended at 09:23:10:20 in process 15664
+20130510 09:51:59.1209 8 35 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 8 ended at 09:51:59:11 in process 15664
+20130510 09:52:26.4845 9 21 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 9 ended at 09:52:26:48 in process 15664
+20130510 10:31:41.3852 10 49 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 10 ended at 10:31:41:38 in process 15664
+20130510 10:31:54.7860 11 49 Warning ConsoleMessageServiceFacade  Console 'key3166286847554147' has a last known change numer of 161, but server current number is 1.
+20130510 10:31:54.7880 11 11 Warning ConsoleMessageServiceFacade  Console 'key07330663965045248' has a last known change numer of 161, but server current number is 1.
+20130510 10:31:55.0100 11 55 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 11 ended at 10:31:55:00 in process 15664
+20130510 10:32:02.2204 12 60 Error FileBasedFunctionProvider  Error instantiating Products function
+20130510 10:32:02.3364 12 60 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\Razor\My\Content\Products.cshtml(51): error CS0119: 'Resources.Localization' is a 'type', which is not valid in the given context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Functions.FunctionProviders.RazorFunctionProvider.RazorFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130510 10:32:02.3434 12 32 Error FileBasedFunctionProvider  Error instantiating Products function
+20130510 10:32:02.3454 12 32 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\Razor\My\Content\Products.cshtml(51): error CS0119: 'Resources.Localization' is a 'type', which is not valid in the given context
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Functions.FunctionProviders.RazorFunctionProvider.RazorFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130510 10:33:40.0690 12 51 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_Products_cshtml.Execute() in d:\CompositeC1\Deploy\ERA\live\App_Data\Razor\My\Content\Products.cshtml:line 37
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130510 10:33:48.5165 12 61 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_Products_cshtml.Execute() in d:\CompositeC1\Deploy\ERA\live\App_Data\Razor\My\Content\Products.cshtml:line 37
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130510 10:35:01.5997 12 51 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_Products_cshtml.Execute() in d:\CompositeC1\Deploy\ERA\live\App_Data\Razor\My\Content\Products.cshtml:line 37
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130510 10:35:23.4469 12 51 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_Products_cshtml.Execute() in d:\CompositeC1\Deploy\ERA\live\App_Data\Razor\My\Content\Products.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130510 10:35:24.9950 12 49 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_Products_cshtml.Execute() in d:\CompositeC1\Deploy\ERA\live\App_Data\Razor\My\Content\Products.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130510 10:35:53.2196 12  5 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_Products_cshtml.Execute() in d:\CompositeC1\Deploy\ERA\live\App_Data\Razor\My\Content\Products.cshtml:line 38
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130510 10:57:48.4948 12 64 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 12 ended at 10:57:48:49 in process 15664
+20130510 10:57:56.3143 13 46 Warning ConsoleMessageServiceFacade  Console 'key07330663965045248' has a last known change numer of 5, but server current number is 1.
+20130510 10:57:56.3433 13 49 Warning ConsoleMessageServiceFacade  Console 'key3166286847554147' has a last known change numer of 5, but server current number is 1.
+20130510 11:28:20.8056 13 54 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 13 ended at 11:28:20:80 in process 15664
+20130510 11:28:32.4603 14 69 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 14 ended at 11:28:32:45 in process 15664
+20130510 11:50:24.4743 15 12 Information Composite.Localization.C1Console.FragmentInstaller  Start fixing Composite.config
+20130510 11:50:24.6294 15 12 Information Composite.Localization.C1Console.FragmentInstaller  Composite.config - fixed..
+20130510 11:50:27.4105 15 69 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 15 ended at 11:50:27:40 in process 15664
+20130510 12:31:08.3701 16 36 Critical XmlDataProvider  Failed to save data to the file file:D:\CompositeC1\Deploy\ERA\live\App_Data\Composite\DataStores\Composite.Data.Types.IUserConsoleInformation_Published.xml
+20130510 12:31:10.8733 16 36 Critical XmlDataProvider  System.UnauthorizedAccessException: Access to the path 'D:\CompositeC1\Deploy\ERA\live\App_Data\Composite\DataStores\Composite.Data.Types.IUserConsoleInformation_Published.xml.bglihfa0.tmp' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Xml.XmlWriterSettings.CreateWriter(String outputFileName)
+   at Composite.Plugins.Data.DataProviders.XmlDataProvider.Foundation.XmlDataProviderDocumentCache.SaveChanges(FileRecord fileRecord)
+
+20130510 13:36:44.9473 16 69 Critical XmlDataProvider  Failed to save data to the file file:D:\CompositeC1\Deploy\ERA\live\App_Data\Composite\DataStores\Composite.Data.Types.IParameter_Published.xml
+20130510 13:36:45.0443 16 69 Critical XmlDataProvider  System.UnauthorizedAccessException: Access to the path 'D:\CompositeC1\Deploy\ERA\live\App_Data\Composite\DataStores\Composite.Data.Types.IParameter_Published.xml.ywgm4t12.tmp' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean useAsync)
+   at System.Xml.XmlWriterSettings.CreateWriter(String outputFileName)
+   at Composite.Plugins.Data.DataProviders.XmlDataProvider.Foundation.XmlDataProviderDocumentCache.SaveChanges(FileRecord fileRecord)
+
+20130510 13:36:45.1273 16 69 Warning XmlDataProvider  System.Transactions.TransactionException: XML data provider does not support transaction's API, changes were not rolled back.
+
+20130510 13:36:45.2073 16 69 Critical XSLT Save  System.UnauthorizedAccessException: Access to the path 'D:\CompositeC1\Deploy\ERA\live\App_Data\Composite\DataStores\Composite.Data.Types.IParameter_Published.xml.ywgm4t12.tmp' is denied.
+   at Composite.Plugins.Data.DataProviders.XmlDataProvider.Foundation.XmlDataProviderDocumentCache.SaveChanges(FileRecord fileRecord)
+   at Composite.Plugins.Data.DataProviders.XmlDataProvider.Foundation.XmlDataProviderDocumentCache.SaveChanges()
+   at Composite.Plugins.Data.DataProviders.XmlDataProvider.XmlDataProvider.AddNew[T](IEnumerable`1 dataset)
+   at Composite.Data.Foundation.PluginFacades.DataProviderPluginFacade.SyncronizedCall[TProvider,TResult](String providerName, SyncronizedCallDelegate`2 func)
+   at Composite.Data.Foundation.PluginFacades.DataProviderPluginFacade.AddNew[T](String providerName, IEnumerable`1 dataset)
+   at Composite.Data.DataFacadeImpl.AddNew_AddingMethod[T](String providerName, IEnumerable`1 dataset, Boolean suppressEventing, Boolean performForeignKeyIntegrityCheck, Boolean performValidation)
+   at Composite.Data.DataFacadeImpl.AddNew[T](IEnumerable`1 datas, Boolean allowStoreCreation, Boolean suppressEventing, Boolean performForeignKeyIntegrityCheck, Boolean performValidation, List`1 writeableProviders)
+   at Composite.Data.DataFacade.AddNew[T](T data)
+   at Composite.Functions.ManagedParameters.ManagedParameterManager.Save(Guid ownerId, IEnumerable`1 parameterDefinitions)
+   at Composite.Plugins.Elements.ElementProviders.XsltBasedFunctionProviderElementProvider.EditXsltFunctionWorkflow.saveCodeActivity_ExecuteCode(Object sender, EventArgs e)
+
+20130510 13:37:26.8807 16 18 Error PageRenderer  System.InvalidOperationException: The parameter 'RSSSource' is not defined in the function named 'Composite.Feeds.RssReader' parameter profiles
+   at Composite.Functions.FunctionTreeBuilder.BuildFunctionRuntimeNode(XElement element)
+   at Composite.Functions.FunctionTreeBuilder.Build(XElement element)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130510 13:37:32.5550 16 72 Error PageRenderer  System.InvalidOperationException: The parameter 'RSSSource' is not defined in the function named 'Composite.Feeds.RssReader' parameter profiles
+   at Composite.Functions.FunctionTreeBuilder.BuildFunctionRuntimeNode(XElement element)
+   at Composite.Functions.FunctionTreeBuilder.Build(XElement element)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130510 13:37:34.0001 16 69 Error PageRenderer  System.InvalidOperationException: The parameter 'RSSSource' is not defined in the function named 'Composite.Feeds.RssReader' parameter profiles
+   at Composite.Functions.FunctionTreeBuilder.BuildFunctionRuntimeNode(XElement element)
+   at Composite.Functions.FunctionTreeBuilder.Build(XElement element)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130510 13:37:53.2132 16 72 Error PageRenderer  System.InvalidOperationException: The parameter 'RSSSource' is not defined in the function named 'Composite.Feeds.RssReader' parameter profiles
+   at Composite.Functions.FunctionTreeBuilder.BuildFunctionRuntimeNode(XElement element)
+   at Composite.Functions.FunctionTreeBuilder.Build(XElement element)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130510 13:38:09.5351 16 12 Error PageRenderer  System.InvalidOperationException: The parameter 'RSSSource' is not defined in the function named 'Composite.Feeds.RssReader' parameter profiles
+   at Composite.Functions.FunctionTreeBuilder.BuildFunctionRuntimeNode(XElement element)
+   at Composite.Functions.FunctionTreeBuilder.Build(XElement element)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130510 13:39:05.9454 16 69 Error PageRenderer  System.InvalidOperationException: The parameter 'RSSSource' is not defined in the function named 'Composite.Feeds.RssReader' parameter profiles
+   at Composite.Functions.FunctionTreeBuilder.BuildFunctionRuntimeNode(XElement element)
+   at Composite.Functions.FunctionTreeBuilder.Build(XElement element)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130510 13:49:23.0607 16 89 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 16 ended at 13:49:23:06 in process 15664
+20130510 13:50:20.0529 17 89 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 17 ended at 13:50:20:05 in process 15664
+20130510 13:54:14.1443 18 89 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 18 ended at 13:54:14:14 in process 15664
+20130510 13:54:48.2242 19 77 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 19 ended at 13:54:48:22 in process 15664
+20130510 13:55:56.3381 20 67 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 20 ended at 13:55:56:33 in process 15664
+20130510 13:56:05.2187 21 70 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 21 ended at 13:56:05:21 in process 15664
+20130510 13:58:49.4390 22 102 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 22 ended at 13:58:49:43 in process 15664
+20130510 13:58:56.0224 23 89 Warning ConsoleMessageServiceFacade  Console 'key5036447088246558' has a last known change numer of 125, but server current number is 1.
+20130510 13:59:21.3959 23 91 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 23 ended at 13:59:21:39 in process 15664
+20130510 13:59:35.3307 24 85 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 24 ended at 13:59:35:32 in process 15664
+20130510 14:34:55.1399 25 101 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 25 ended at 14:34:55:13 in process 15664
+20130510 14:36:48.3824 26 66 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 26 ended at 14:36:48:38 in process 15664
+20130510 15:02:47.9276 27 100 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 27 ended at 15:02:47:90 in process 15664
+20130510 15:03:34.8663 28 11 Warning ConsoleMessageServiceFacade  Console 'key5036447088246558' has a last known change numer of 146, but server current number is 1.
+20130510 15:03:39.2805 28 61 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 28 ended at 15:03:39:27 in process 15664
+20130510 15:23:08.5334 29 49 Error FunctionWrapper  System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_App_Data_Razor_My_Content_ProductDetail_cshtml.Execute() in d:\CompositeC1\Deploy\ERA\live\App_Data\Razor\My\Content\ProductDetail.cshtml:line 41
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Composite.AspNet.Razor.RazorHelper.ExecuteRazorPage(String virtualPath, Action`1 setParameters, Type resultType)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+20130510 15:34:39.3139 29 61 Information MimeTypeInfo  Uploading file 'Logo Blue Green Red.png'. MIME type from extension: 'image/png'
+20130510 15:42:48.2239 29 21 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 29 ended at 15:42:48:22 in process 15664

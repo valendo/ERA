@@ -13,6 +13,13 @@
         return segments.Skip(segment + 1).FirstOrDefault();
     }
 
+    public static string convertToUnSign(string s)
+    {
+        System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex("\\p{IsCombiningDiacriticalMarks}+");
+        string temp = s.Normalize(System.Text.NormalizationForm.FormD);
+        return regex.Replace(temp, String.Empty).Replace('\u0111', 'd').Replace('\u0110', 'D');
+    }
+
     public static string GetUrlFromTitle(string title)
     {
         const string autoRemoveChars = @",./\?#!""@+'`´*():;$%&=¦§";
@@ -25,7 +32,7 @@
 
         var url = generated.ToString().Replace(" ", "-");
 
-        return url.ToLower();
+        return convertToUnSign(url.ToLower());
     }
 }
 

@@ -1,4 +1,13 @@
-﻿
+﻿.product_box a, .readmore a
+{
+    color:#0099ff;
+    text-decoration:underline;
+}
+a:hover
+{
+    color:#0099ff;
+    text-decoration:none;
+}
 .col1, .col2, .col3,.col4, .cols, .col_address, .col_follow { float:left;}
 
 .cols{ width:190px;}

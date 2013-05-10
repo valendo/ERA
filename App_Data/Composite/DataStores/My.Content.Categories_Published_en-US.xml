@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CategoriesElements>
+  <Categories Id="54f007a2-2bff-4c19-8e08-e8ede5e54d6f" Title="Products" Order="1" CultureName="en-US" SourceCultureName="en-US" />
+  <Categories Id="cb5eb10e-7637-4a2b-b99c-b8855af6de4f" Title="Services" Order="2" CultureName="en-US" SourceCultureName="en-US" />
+  <Categories Id="f9b4644e-8ebd-40cd-93f0-9bf84ee6f870" Title="Solutions" Order="3" CultureName="en-US" SourceCultureName="en-US" />
+</CategoriesElements>

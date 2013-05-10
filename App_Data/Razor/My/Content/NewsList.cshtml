@@ -9,9 +9,16 @@
     [FunctionParameter(Label = "News Detail Page")]
     public DataReference<IPage> NewsDetailPage { get; set; }
 
+    public static string convertToUnSign(string s)
+    {
+        System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex("\\p{IsCombiningDiacriticalMarks}+");
+        string temp = s.Normalize(System.Text.NormalizationForm.FormD);
+        return regex.Replace(temp, String.Empty).Replace('\u0111', 'd').Replace('\u0110', 'D');
+    }
+
     public static string GetUrlFromTitle(string title)
     {
-        const string autoRemoveChars = @",./\?#!""@+'`�*():;$%&=��";
+        const string autoRemoveChars = @",./\?#!""@+'`´*():;$%&=¦§";
         var generated = new System.Text.StringBuilder();
 
         foreach (var c in title.Where(c => autoRemoveChars.IndexOf(c) == -1))
@@ -21,7 +28,7 @@
 
         var url = generated.ToString().Replace(" ", "-");
 
-        return url.ToLower();
+        return convertToUnSign(url.ToLower());
     }
 }
 
@@ -36,31 +43,37 @@
         var news = Data.Get<My.Content.News>().OrderByDescending(t => t.PublishDate).ToList();
 		if (news.Count > 0)
         {
-        <div id="paging_container">
-				<ul class="content">
-                    @foreach (var item in news)
+            <div id="paging_container">
+				    <ul class="content">
+                        @foreach (var item in news)
+                        {
+                            int i = news.IndexOf(item) + 1;
+                            <li>
+                                <h5><span class="dropcap"><strong class="usefont">@item.PublishDate.ToString("dd")</strong> <span class="usefont">
+                                    @item.PublishDate.ToString("MM")</span></span> <span class="usefont">@item.Title</span></h5>
+                                <div class="wrapper pad_bot2">
+                                    <figure class="left marg_right1">
+                                        <a href="@Html.C1().PageUrl(@NewsDetailPage.Data)/@item.PublishDate.ToString("yyyy")-@item.PublishDate.ToString("MM")-@item.PublishDate.ToString("dd")/@GetUrlFromTitle(item.Title)" class="link1">
+                                            <img src="@Html.C1().MediaUrl(item.Image)" />
+                                        </a>
+                                    </figure>
+                                    <p class="pad_bot1">
+                                        @item.Summary
+                                    </p>
+                                    <a href="@Html.C1().PageUrl(@NewsDetailPage.Data)/@item.PublishDate.ToString("yyyy")-@item.PublishDate.ToString("MM")-@item.PublishDate.ToString("dd")/@GetUrlFromTitle(item.Title)" class="link1">Read More</a>
+                                </div>
+                            </li>
+                        }
+				    </ul>	
+                    @if (news.Count > 3)
                     {
-                        int i = news.IndexOf(item) + 1;
-                        <li>
-                            <h5><span class="dropcap"><strong class="usefont">@item.PublishDate.ToString("dd")</strong> <span class="usefont">
-                                @item.PublishDate.ToString("MM")</span></span> <span class="usefont">@item.Title</span></h5>
-                            <div class="wrapper pad_bot2">
-                                <figure class="left marg_right1">
-                                    <a href="@Html.C1().PageUrl(@NewsDetailPage.Data)/@item.PublishDate.ToString("yyyy")-@item.PublishDate.ToString("MM")-@item.PublishDate.ToString("dd")/@GetUrlFromTitle(item.Title)" class="link1">
-                                        <img src="@Html.C1().MediaUrl(item.Image)" />
-                                    </a>
-                                </figure>
-                                <p class="pad_bot1">
-                                    @item.Summary
-                                </p>
-                                <a href="@Html.C1().PageUrl(@NewsDetailPage.Data)/@item.PublishDate.ToString("yyyy")-@item.PublishDate.ToString("MM")-@item.PublishDate.ToString("dd")/@GetUrlFromTitle(item.Title)" class="link1">Read More</a>
-                            </div>
-                        </li>
+                        <div class="page_navigation"></div>    
                     }
-				</ul>	
-                    <div class="page_navigation"></div>
-			</div>
-	}
+			    </div>
+	    }
+        else{
+            <div class="update_status">@Resources.Localization.NewsUpdateStatus</div>   
+        }
     }
     <script type="text/javascript">
         $(document).ready(function () {
