@@ -1,0 +1,151 @@
+﻿20130513 09:12:35.2889 2 43 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 09:12:35:23 in process 3428
+20130513 10:24:52.0350 2 21 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 10:24:51:99 in process 6480
+20130513 10:25:10.6911 3 36 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 10:25:10:69 in process 6480
+20130513 10:25:52.9705 4 26 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 10:25:52:97 in process 6480
+20130513 10:25:58.9618 5 14 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130513 10:25:59.0158 5 14 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx.cs(40): error CS0246: The type or namespace name 'ResXResourceReader' could not be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130513 10:26:23.6122 5 10 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130513 10:26:23.6132 5 10 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(15): error CS0103: The name 'indexNum' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130513 10:26:24.8173 5  5 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130513 10:26:24.8183 5  5 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(15): error CS0103: The name 'indexNum' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130513 10:27:09.3519 5 21 Error PageRenderer  System.InvalidOperationException: Failed to get value for function 'My.Content.Localization' ---> System.Web.HttpCompileException: d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(15): error CS0103: The name 'indexNum' does not exist in the current context
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.NotLoadedFileBasedFunction`1.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+   --- End of inner exception stack trace ---
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130513 10:27:09.3529 5 21 Error PageRenderer | INNER  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(15): error CS0103: The name 'indexNum' does not exist in the current context
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.NotLoadedFileBasedFunction`1.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+20130513 10:42:58.4931 5 55 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130513 10:42:58.4941 5 55 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(25): error CS0103: The name 'indexNum' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130513 10:42:58.5151 5 27 Error PageRenderer  System.InvalidOperationException: Failed to get value for function 'My.Content.Localization' ---> System.Web.HttpCompileException: d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(25): error CS0103: The name 'indexNum' does not exist in the current context
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.NotLoadedFileBasedFunction`1.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+   --- End of inner exception stack trace ---
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130513 10:42:58.5151 5 27 Error PageRenderer | INNER  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(25): error CS0103: The name 'indexNum' does not exist in the current context
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.NotLoadedFileBasedFunction`1.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+20130513 10:43:05.7586 5 40 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130513 10:43:05.7586 5 40 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(25): error CS0103: The name 'indexNum' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130513 10:43:08.4777 5 16 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130513 10:43:08.4777 5 16 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(25): error CS0103: The name 'indexNum' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130513 10:43:10.8028 5 10 Error PageRenderer  System.InvalidOperationException: Failed to get value for function 'My.Content.Localization' ---> System.Web.HttpCompileException: d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(25): error CS0103: The name 'indexNum' does not exist in the current context
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.NotLoadedFileBasedFunction`1.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+   --- End of inner exception stack trace ---
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130513 10:43:10.8038 5 10 Error PageRenderer | INNER  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(25): error CS0103: The name 'indexNum' does not exist in the current context
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.NotLoadedFileBasedFunction`1.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+20130513 10:43:47.0289 5 27 Warning /Renderers/Page.aspx  Failed to format output xhtml. Url: /Resource
+20130513 10:43:58.0515 5 27 Warning /Renderers/Page.aspx  Failed to format output xhtml. Url: /Resource
+20130513 10:44:02.4888 5 40 Warning /Renderers/Page.aspx  Failed to format output xhtml. Url: /Resource
+20130513 11:03:35.9069 5 33 Warning /Renderers/Page.aspx  Failed to format output xhtml. Url: /Resource
+20130513 11:10:48.7007 5 29 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130513 11:10:48.7017 5 29 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx.cs(49): error CS0103: The name 'Label1' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130513 11:10:49.5687 5  7 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130513 11:10:49.5697 5  7 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(41): error CS1061: 'ASP.app_data_usercontrols_my_content_localization_ascx' does not contain a definition for 'Button1_Click' and no extension method 'Button1_Click' accepting a first argument of type 'ASP.app_data_usercontrols_my_content_localization_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130513 11:10:55.6311 5 54 Error PageRenderer  System.InvalidOperationException: Failed to get value for function 'My.Content.Localization' ---> System.Web.HttpCompileException: d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(41): error CS1061: 'ASP.app_data_usercontrols_my_content_localization_ascx' does not contain a definition for 'Button1_Click' and no extension method 'Button1_Click' accepting a first argument of type 'ASP.app_data_usercontrols_my_content_localization_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.NotLoadedFileBasedFunction`1.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+   --- End of inner exception stack trace ---
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+   at Composite.Core.WebClient.Renderings.Page.PageRenderer.<>c__DisplayClass19.<ExecuteEmbeddedFunctions>b__15(Int32 i)
+20130513 11:10:55.6321 5 54 Error PageRenderer | INNER  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx(41): error CS1061: 'ASP.app_data_usercontrols_my_content_localization_ascx' does not contain a definition for 'Button1_Click' and no extension method 'Button1_Click' accepting a first argument of type 'ASP.app_data_usercontrols_my_content_localization_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.NotLoadedFileBasedFunction`1.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.Foundation.PluginFacades.FunctionWrapper.Execute(ParameterList parameters, FunctionContextContainer context)
+   at Composite.Functions.FunctionRuntimeTreeNode.GetValue(FunctionContextContainer contextContainer)
+20130513 11:12:27.3703 5 79 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130513 11:12:27.3713 5 79 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx.cs(49): error CS0103: The name 'lblKey' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130513 11:21:11.3943 5 25 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 11:21:11:39 in process 6480
+20130513 11:21:36.4557 6 66 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 6 ended at 11:21:36:45 in process 6480
+20130513 11:22:08.8026 7 66 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 7 ended at 11:22:08:80 in process 6480
+20130513 11:22:41.7715 8 31 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 8 ended at 11:22:41:77 in process 6480
+20130513 11:26:31.4166 9 39 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 9 ended at 11:26:31:41 in process 6480
+20130513 11:26:37.9240 10 75 Warning ConsoleMessageServiceFacade  Console 'key8870191472350071' has a last known change numer of 29, but server current number is 1.
+20130513 11:27:09.7468 10 28 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 10 ended at 11:27:09:74 in process 6480
+20130513 11:28:14.0875 11 48 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 11 ended at 11:28:14:08 in process 6480
+20130513 11:28:50.3455 12 14 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 12 ended at 11:28:50:34 in process 6480

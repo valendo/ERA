@@ -1,0 +1,75 @@
+﻿20130514 08:44:10.5207 13 24 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130514 08:44:10.8017 13 24 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx.cs(46): error CS0103: The name 'panelContent' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130514 09:01:11.1370 13 45 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 13 ended at 09:01:11:13 in process 6480
+20130514 09:01:16.5303 13 37 Error metaFunctionContainer  The parameter profiles for the Function named 'Layout.Navigation.TopLink.FieldPredicatesFilter' could not be retrieved.
+Exception details:
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.RuntimeTypeHandle.Instantiate(RuntimeTypeHandle handle, IntPtr* pInst, Int32 numGenericArgs, ObjectHandleOnStack type)
+   at System.RuntimeTypeHandle.Instantiate(Type[] inst)
+   at System.RuntimeType.MakeGenericType(Type[] instantiation)
+   at Composite.Plugins.Functions.FunctionProviders.StandardFunctionProvider.IDataGenerated.Filter.FieldPredicatesFilter`1.<get_StandardFunctionParameterProfiles>d__0.MoveNext()
+   at Composite.Plugins.Functions.FunctionProviders.StandardFunctionProvider.Foundation.StandardFunctionBase.<get_ParameterProfiles>d__0.MoveNext()
+   at Composite.Functions.IMetaFunctionExtensionMethods.ValidateParameterProfiles(IMetaFunction metaFunction)
+   at Composite.Functions.Foundation.MetaFunctionContainer.InitializeFunctionsFromProvider(String providerName, FunctionTypesToReturn functionTypesToReturn, Boolean fireEvents)
+20130514 09:01:16.7174 13 37 Critical GlobalInitializerFacade  MaxRecompilationsReached
+20130514 09:01:16.7394 13 37 Critical GlobalInitializerFacade  System.Threading.ThreadAbortException: Thread was being aborted.
+   at Composite.Functions.Foundation.MetaFunctionContainer.InitializeFunctionsFromProvider(String providerName, FunctionTypesToReturn functionTypesToReturn, Boolean fireEvents)
+   at Composite.Functions.Foundation.MetaFunctionContainer.InitializeAllFunctions(FunctionTypesToReturn functionTypesToReturn, Boolean fireUpdateEvents)
+   at Composite.Functions.Foundation.MetaFunctionProviderRegistryImpl.Initialize_PostDataTypes()
+   at Composite.GlobalInitializerFacade.DoInitialize()
+   at Composite.GlobalInitializerFacade.InitializeTheSystem()
+
+20130514 09:01:42.6948 14 48 Warning ConsoleMessageServiceFacade  Console 'key5873928806846243' has a last known change numer of 95, but server current number is 1.
+20130514 09:10:24.3807 14 81 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 14 ended at 09:10:24:38 in process 6480
+20130514 09:12:24.1285 15 88 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 15 ended at 09:12:24:12 in process 6480
+20130514 09:13:07.9440 16 81 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130514 09:13:07.9580 16 81 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx.cs(30): error CS0103: The name 'Label1' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130514 09:13:07.9610 16 86 Error FileBasedFunctionProvider  Error instantiating Localization function
+20130514 09:13:07.9780 16 86 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): d:\CompositeC1\Deploy\ERA\live\App_Data\UserControls\My\Content\Localization.ascx.cs(30): error CS0103: The name 'Label1' does not exist in the current context
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.CompileFile(String virtualPath)
+   at Composite.Plugins.Functions.FunctionProviders.UserControlFunctionProvider.UserControlFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130514 13:36:04.9244 16 13 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 16 ended at 13:36:04:86 in process 6480
+20130514 13:36:37.0463 17 55 Warning ConsoleMessageServiceFacade  Console 'key00789617063305581' has a last known change numer of 13, but server current number is 1.
+20130514 13:36:37.2013 17 47 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 17 ended at 13:36:37:20 in process 6480
+20130514 13:39:24.1758 18 74 Warning InstallRemotePackageWorkflow  System.ServiceModel.FaultException: Server was unable to process request. ---> Sequence contains more than one element
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Composite.Core.PackageSystem.WebServiceClient.PackagesSoap.RegisterPackageInstallationCompletion(RegisterPackageInstallationCompletionRequest request)
+   at Composite.Core.PackageSystem.PackageServerFacadeImpl.RegisterPackageInstallationCompletion(String packageServerUrl, Guid installationId, Guid packageId, String localUserName, String localUserIp)
+   at Composite.Plugins.Elements.ElementProviders.PackageElementProvider.InstallRemotePackageWorkflow.step4CodeActivity_Install_ExecuteCode(Object sender, EventArgs e)
+
+20130514 13:39:24.5228 18 89 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 18 ended at 13:39:24:52 in process 6480
+20130514 13:43:42.4516 19 95 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 19 ended at 13:43:42:44 in process 6480
+20130514 13:51:37.4268 20 81 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 20 ended at 13:51:37:42 in process 6480

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\App_Data\PageTemplates\Facebook Page.xml" />
+        <File filename="~\Frontend\Composite\Community\Facebook\Pages\Styles.css" />
+      </Files>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DynamicDataTypePackageFragmentUninstaller,Composite">
+      <Types xmlns="" />
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataPackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type type="Composite.Data.Types.IXmlPageTemplate,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="9f924e5a-03f5-4a90-b7b7-d3b70ec11ffc" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IPageType,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="b8458925-5e4f-4aae-a5fa-3ad6530ad7bf" />
+            </Keys>
+          </Datas>
+        </Type>
+      </Types>
+    </Add>
+  </PackageFragmentUninstallers>
+</PackageInstaller>

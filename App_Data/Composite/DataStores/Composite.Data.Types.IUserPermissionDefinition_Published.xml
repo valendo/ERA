@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UserPermissionDefinitionElementsElements>
+  <UserPermissionDefinitionElements Id="b1f08be1-c46a-403e-9fab-c37698144d19" Username="admin" SerializedEntityToken="entityTokenType='Composite\.Data\.DataEntityToken,Composite'entityToken='_dataId_=\'Id=\\\'97383a41-ca08-43c8-b453-b03ef838bb09\\\'\'_dataIdType_=\'CompositeGenerated\\\.DynamicXmlDataProvider\\\.Composite_Data_Types_IPageDataId\'_interfaceType_=\'Composite\\\.Data\\\.Types\\\.IPage,Composite\'_dataScope_=\'administrated\'_localeScope_=\'vi-VN\''" />
   <UserPermissionDefinitionElements Id="eb4fd80f-9c20-44fb-85ad-12f0254bfa1a" Username="admin" SerializedEntityToken="entityTokenType='Composite\.Plugins\.Elements\.ElementProviders\.VirtualElementProvider\.VirtualElementProviderEntityToken,Composite'entityToken='_EntityToken_Type_=\'Composite\\\.Plugins\\\.Elements\\\.ElementProviders\\\.VirtualElementProvider\\\.VirtualElementProviderEntityToken,Composite\'_EntityToken_Source_=\'VirtualElementProvider\'_EntityToken_Id_=\'ID01\''" />
 </UserPermissionDefinitionElementsElements>
